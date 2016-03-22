@@ -21,7 +21,7 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
-section p {
+p.section {
     text-align: justify;
 }
 
@@ -236,7 +236,7 @@ header {
 }
 
 p.header {
-	font-size: 16px;
+	font-size: 13px;
 }
 
 h1.header {
