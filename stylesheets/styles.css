@@ -21,6 +21,9 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
+section p {
+    text-align: justify;
+}
 
 
 /* Base text styles */
@@ -217,7 +220,7 @@ td {
 header {
 	background-color: #171717;
 	color: #FDFDFB;
-  width:170px;
+  width:250px;
   float:left;
   position:fixed;
 	border: 1px solid #000;
@@ -319,7 +322,7 @@ a.buttons:hover {
 /* Section - for main page content */
 
 section {
-  width:650px;
+  width:600px;
   float:right;
   padding-bottom:50px;
 }
