@@ -21,9 +21,6 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
-section p {
-    text-align: justify;
-}
 
 
 /* Base text styles */
@@ -220,7 +217,7 @@ td {
 header {
 	background-color: #171717;
 	color: #FDFDFB;
-  width:230px;
+  width:170px;
   float:left;
   position:fixed;
 	border: 1px solid #000;
@@ -236,7 +233,7 @@ header {
 }
 
 p.header {
-	font-size: 13px;
+	font-size: 16px;
 }
 
 h1.header {
@@ -249,15 +246,7 @@ h1.header {
 }
 
 
-h1.header, h2.header, h3.header, h4.header, a.header, a.name, header a{
-	color: #fff;
-}
-header h2, header h3, header h4{
-	margin: 0 0 0 0;
-	color: #fff;
-}
-header h3{
-	margin: 12px 0 0 0;
+h1.header, a.header, a.name, header a{
 	color: #fff;
 }
 
@@ -330,7 +319,7 @@ a.buttons:hover {
 /* Section - for main page content */
 
 section {
-  width:630px;
+  width:650px;
   float:right;
   padding-bottom:50px;
 }
