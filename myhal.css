@@ -1,0 +1,136 @@
+﻿/* classe css de la page*/
+
+/* #res_script p, #res_script dl, #res_script dt, #res_script dd, #res_script a   { */
+/* 	font-family:arial,verdana,sans-serif; */
+/* 	color: #363842; */
+/* } */
+/* #res_script { */
+/* 	border:0; */
+/* 	background-color:#F5F5F5; */
+/* 	color:#E33729; */
+/* } */
+
+body{
+    color: #232323;
+    background-color: #FBFAF7;
+}
+#res_script dt {
+display:none;
+}
+#res_script{
+	font-size:10.5px;
+	font-family: arial, verdana, sans-serif;
+    color: #232323;
+    background-color: #FBFAF7;
+}
+#res_script .Rubrique{
+	border-bottom:1px solid #CCC;
+	padding-bottom:0.2em;
+    font-weight:bold;
+    color:#7F7B7A;
+    font-size:1.7em;
+    margin:0 0 1.5em 0;
+}
+#res_script .SousRubrique {
+    font-weight:bold;
+    font-size:1.2em;
+    margin:1.5em 0;
+    margin-bottom: 0;
+    background:url(http://haltools.inria.fr/images/puce_triangle_noir_medium_bottom.png) no-repeat left 6px;
+    padding-left:12px;
+    /* color: #363842; */
+    color:#7F7B7A;
+}
+#res_script dl{
+    clear:both;
+    margin:0.4em 0 1em 15px ;
+    overflow:hidden;
+}
+#res_script dt{
+    display:none;
+}
+#res_script dd{
+    margin-left: 0;
+}
+#res_script .Vignette{
+  float: left;
+  clear:left;
+  padding-right:0em;
+  margin-left:0.5em;
+}
+#res_script .Vignette img{
+    background:none repeat scroll 0 0 #FFFFFF;
+    border:1px solid #CCCCCC;
+    padding:2px;
+}
+
+#res_script .NoticeResAvecVignette {
+	border: 0;
+	padding-bottom: 0.5em;
+	min-height:100px;
+}
+
+#res_script .ChampResAvecVignette {
+	display:none;
+width: 15%;
+	text-align:left;
+	font-size:0.9em;
+	color:#58529F;
+	font-weight:bold;
+	margin-bottom: 0em;
+	margin-top: 0em;
+	padding: 0em;
+	margin-left:120px;
+}
+/* quand il y a affichage de vignette */
+#res_script .ValeurResAvecVignette {
+	margin-left:120px;
+	margin-bottom: 0em;
+	margin-top: 0em;
+	padding: 0em;
+	text-align:left;
+	font-size: 0.9em;
+	font-size: 1em;
+}
+#res_script .ValeurResAvecVignette a{
+	color:black;
+	text-decoration:underline;
+	font-size: 1em;
+}
+
+#res_script .Titre{
+    font-weight:bold;
+    /* color:#7F7B7A; */
+    font-size:1.1em;
+    margin-bottom:0.2em;
+}
+#res_script .Titre a{
+    /* color:#7F7B7A; */
+    text-decoration:none;
+}
+#res_script .Titre a:hover,
+#res_script .Titre a:focus{
+    text-decoration:underline;
+}
+#res_script .Auteurs{
+    /* color:#888888; */
+    margin-bottom:0;
+}
+
+#res_script .Auteurs a{
+     display:none;
+}
+#res_script .Detail{
+    margin-bottom:0;
+}
+#res_script .Fichier_joint a{
+    display:none;
+}
+/*lien vers le bibtex*/
+.LienBibtexACoteFulltext{
+    display:none;
+}
+.ValeurRes a{
+	/* color:#42A2D2; */
+	text-decoration:none;
+}

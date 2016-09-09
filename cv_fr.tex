@@ -1,0 +1,135 @@
+\documentclass[]{cv}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage{hyperref}
+\PassOptionsToPackage{usenames,dvipsnames}{color} % color is loaded by hyperref
+\hypersetup{unicode=true,
+            colorlinks=true,
+            linkcolor=black,
+            citecolor=Blue,
+            urlcolor=black,
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+
+
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+\date{}
+
+\begin{document}
+
+\subsection{Expériences}\label{expuxe9riences}
+
+\begin{description}
+\tightlist
+\item[Depuis 01/2015]
+\textbf{Ingénieur de recherche, expert en technologies GPU}, Centre de
+calcul de Champagne-Ardenne ROMEO, Université de Reims
+Champagne-Ardenne, Reims.
+\end{description}
+
+\begin{itemize}
+\item
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{Laboratoire d'applications GPU}: Expertise auprès des
+    utilisateurs pour le portage et l'optimisation de codes de calcul
+    GPU.
+  \item
+    \textbf{Veille techologique}: Mise en œuvre de librairies, outils et
+    logiciels spécifiques à l'exploitation du calculateur.
+  \item
+    \textbf{Communication}: Formations aux utilisateurs et étudiants en
+    technologies de calcul sur GPU et en calcul hybride. Participation à
+    la production de communications scientifiques dans le cadre des
+    projets.
+  \end{itemize}
+\end{itemize}
+
+\begin{description}
+\tightlist
+\item[10/2011 -- 12/2014]
+\textbf{Doctorat}: \emph{Couplage de modèles, algorithmes multi-échelles
+et calcul hybride}, Laboratoire Jean Kuntzmann, Université Joseph
+Fourier, Grenoble, Direction: G.-H. Cottet et C. Picard
+\end{description}
+
+\begin{itemize}
+\item
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{Recherche}: Analyse et extension d'une méthode particulaire
+    avec remaillage, implémentation d'algorithmes multi-échelles sur
+    GPU, calcul hybride multi-CPU/multi-GPU sur clusters du mésocentre
+    grenoblois CIMENT et serveurs du laboratoire, applications à la
+    résolution d'écoulements turbulents.
+  \item
+    \textbf{Label C3I:} Certificat de Compétences en Calcul Intensif,
+    GENCI.
+  \item
+    \textbf{Enseignement}: Méthodes informatiques et techniques de
+    programmation (135 h, Cours/TD/TP, L1), fonctions de plusieurs
+    variables et calcul matriciel (36 h, TD, L2), expérimentations sur
+    Scilab: image, signal, interpolation, courbes et surfaces (27 h, TP,
+    L1).
+  \item
+    \textbf{Communication}: Conférences nationale
+    \autocite{Etancelin2013b} et internationales
+    \autocite{Etancelin2014a} \autocite{Balarac2014}, article de revue
+    avec comité de relecture \autocite{Etancelin2014}, documentation
+    technique utilisateur et développeur.
+  \end{itemize}
+\end{itemize}
+
+
+
+
+\setlength\bibitemsep{1.3\itemsep}
+%\nocite{*}
+\renewcommand{\mkbibnamefirst}[1]{\normalfont{#1}}
+\renewcommand{\mkbibnamelast}[1]{\normalfont{#1}}
+\renewcommand{\mkbibnameprefix}[1]{\normalfont{#1}}
+\renewcommand{\mkbibnameaffix}[1]{\normalfont{#1}}
+\printbibliography{}
+
+\end{document}

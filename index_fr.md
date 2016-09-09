@@ -1,0 +1,44 @@
+% JM Etancelin
+
+# Docteur, Ingénieur
+## Présentation
+
+J'occupe actuellement un poste d'ingénieur de recherche au [Centre de Calcul de Champagne-Ardenne ROMEO](https://romeo.univ-reims.fr/) à l'[Université de Reims Champagne-Ardenne](http://www.univ-reims.fr/). Au sein du Laboratoire d'Applications GPU (NVIDIA GPU Application Lab), mon rôle consiste à apporter une expertise auprès des utilisateurs pour exploiter les GPU du calculateur hybride ROMEO. En collaboration avec ces utilisateurs, je réalise des opérations de portage de code sur GPU ainsi que de passage à l'échelle et d'optimisation sur plusieurs centaines de GPU. De manière plus générale, je m'intéresse aux problématiques liées à l'adaptation des algorithmes et des méthodes numériques aux architectures hétérogènes. Dans ce contexte, je participe à plusieurs projets dans différents domaines d'applications comme la mécanique des fluides, la chimie théorique, les mathématiques appliquées et l'informatique.
+
+En décembre 2014, j'ai obtenu un doctorat en Mathématiques Appliquées à l'Université Joseph Fourier (Grenoble) dans l'équipe [EDP](http://ljk.imag.fr/EDP/) du [Laboratoire Jean Kuntzmann](http://www-ljk.imag.fr). Cette thèse a été réalisée sous la direction de G.H. Cottet et C. Picard dans le cadre du projet ANR HAMM. Les principaux objectifs de ces travaux étaient d'étudier l'adéquation entre le couplage de méthode, les algorithmes multi-échelle et le calcul hybride pour la simulation d'écoulements turbulents.
+
+En 2011, j'ai obtenu un diplôme d'ingénieur en Génie Mathématique à l'[Institut National des Sciences Appliquées de Rouen](http://www.insa-rouen.fr/) et un Master en Mathématique et Informatique des systèmes complexes et distribués à l'[Université du Havre](https://www.univ-lehavre.fr/).
+
+## Recherche
+
+Je m'intéresse à l'élaboration et à l'implémentation d'algorithmes et de méthodes à haute performances numériques. Dans ce contexte, il est primordial de prendre en compte les spécificités de la programmation parallèle hétérogène non seulement au niveau des algorithmes mais aussi au niveau des méthodes numériques elles-mêmes.
+
+Mots clés:
+
+- Calcul à haute performance
+- Calcul sur GPU
+- Architectures hybrides
+- Algorithmes éco-efficaces
+- Méthode semi-Lagrangienne d'ordre élevé (méthode particulaire avec remaillage)
+- Schémas volumes finis d'ordre élevé
+- Écoulements turbulents
+
+## Enseignement
+
+### Mai 2016 : École de printemps GPU (Université de Reims Champagne-Ardenne)
+
+- Semaine de formation aux technologies GPU ([Reims GPU Spring School](https://romeo.univ-reims.fr/GpuSchool)) pour un public de chercheurs, industriels et doctorants
+
+### 2015/2016 (Université de Reims Champagne-Ardenne)
+
+- Programmation GPU avancée (M2)
+- Calcul hautes performances (M2)
+
+### 2013/2014 (Université Joseph Fourier)
+
+- Calcul matriciel et fonctions de plusieurs variables (L2)
+- Découverte des mathématiques appliquées (L1)
+
+### 2011/2012 et 2012/2013 (Université Joseph Fourier)
+
+- Méthodes informatiques et techniques de programmation (L1)
