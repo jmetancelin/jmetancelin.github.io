@@ -19,8 +19,8 @@ Depuis 01/2015
 * **Communication**: Formations aux utilisateurs et étudiants en technologies de calcul sur GPU et en calcul hybride. Participation à la production de communications scientifiques [@GTC2016LAB] [@GTC2016ONERA] [@LeGouez2015].
 * **Vacations**: 52h en Master 2 Informatique, URCA
 * **Collaborations**:
-    * ONERA : Optimisation et passage à l'échelle d'un code de recherche multi-GPU de type LES pour l'aéronautique
-    * ICMR et ATOS : Optimisation d'un code GPU d'étude de systèmes moléculaires
+    * ONERA : Optimisation et passage à l'échelle d'un code de recherche volumes finis d'ordre élevé multi-GPU de type LES pour la simulation de profils aérodynamiques en conditions réalistes
+    * ICMR et ATOS : Optimisation d'un code GPU d'étude de systèmes moléculaires basé sur l'étude d'interactions non covalentes en vue d'une utilisation par un algorithme génétique
     * CORIA : Étude préliminaire du portage sur GPU du code Yales2 de combustion diphasique
 
 10/2015

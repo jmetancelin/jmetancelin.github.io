@@ -19,8 +19,8 @@ Since 01/2015
 * **Communication**: courses in GPU technologies and hybrid computing to users and students. Contributing to scientific communications [@GTC2016LAB] [@GTC2016ONERA] [@LeGouez2015].
 * **Teaching**: 52h in Master's degree in Computer Science, URCA
 * **Collaborations**:
-    * ONERA : Optimisation and upscaling of a multi-GPU research code based on a LES method for aeronautics simulations
-    * ICMR et ATOS : Optimization of a GPU code for molecular systems study
+    * ONERA : Optimisation and upscaling of a multi-GPU high order finite volumes research code based on a LES method for realistic aerodynamic profiles
+    * ICMR et ATOS : Optimization of a GPU code for molecular systems study based on non covalent interactions in the context of genetic algorithm
     * CORIA : Preliminary study of GPU porting of the two-phase combustion code Yales2
 
 10/2015
