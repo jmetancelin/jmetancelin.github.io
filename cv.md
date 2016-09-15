@@ -22,12 +22,12 @@ Since 01/2015
     * ONERA : Optimisation and upscaling of a multi-GPU high order finite volumes research code based on a LES method for realistic aerodynamic profiles
     * ICMR et ATOS : Optimization of a GPU code for molecular systems study based on non covalent interactions in the context of genetic algorithm
     * CORIA : Preliminary study of GPU porting of the two-phase combustion code Yales2
+	* Maison de la Simulation : Design of an aggregation tool for renergy performances
 
 10/2015
 :     **Rapid Analytics and Model Prototyping**
-
-* *Deeplearning challenge for pollinating insects images using GPUs*
-* Laboratoire de l'Accélérateur Linéaire, University of Paris South and Musée National d'Histoire Naturelle
+:     *Deeplearning challenge for pollinating insects images using GPUs*
+:     Laboratoire de l'Accélérateur Linéaire, University of Paris South and Musée National d'Histoire Naturelle
 
 10/2011 -- 12/2014
 :   **PhD in Applied Mathematics**:
@@ -92,7 +92,7 @@ Since 01/2015
 ## Technical skills
 
 Parallel computing
-:    CUDA, OpenCL, OpenACC, MPI, OpenMP
+:    CUDA, OpenCL, OpenACC, OpenMP, MPI
 
 Programming
 :    Python, C/C++, Fortran, Shell Unix
@@ -101,8 +101,7 @@ Tools
 :    Jupyter, TAU, git, svn, ParaView, Gnuplot, \LaTeX
 
 Languages
-:    French (native)
-:    Anglais: courant (TOEIC: 830/990, 2010)
+:    French: native, English: fluent (TOEIC: 830/990, 2010)
 
 
 ## Collective responsibilities

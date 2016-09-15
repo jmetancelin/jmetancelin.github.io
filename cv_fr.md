@@ -16,18 +16,18 @@ Depuis 01/2015
 
 * **Laboratoire d'applications GPU (NVIDIA)**: Expertise auprès des utilisateurs pour le portage et l'optimisation de codes de calcul GPU.
 * **Veille techologique**: Mise en œuvre de librairies, outils et logiciels spécifiques à l'exploitation du calculateur.
-* **Communication**: Formations aux utilisateurs et étudiants en technologies de calcul sur GPU et en calcul hybride. Participation à la production de communications scientifiques [@GTC2016LAB] [@GTC2016ONERA] [@LeGouez2015].
+* **Communication**: Formations aux utilisateurs et étudiants en technologies de calcul sur GPU et en calcul hybride. Production de communications scientifiques [@GTC2016LAB] [@GTC2016ONERA] [@LeGouez2015].
 * **Vacations**: 52h en Master 2 Informatique, URCA
 * **Collaborations**:
     * ONERA : Optimisation et passage à l'échelle d'un code de recherche volumes finis d'ordre élevé multi-GPU de type LES pour la simulation de profils aérodynamiques en conditions réalistes
     * ICMR et ATOS : Optimisation d'un code GPU d'étude de systèmes moléculaires basé sur l'étude d'interactions non covalentes en vue d'une utilisation par un algorithme génétique
     * CORIA : Étude préliminaire du portage sur GPU du code Yales2 de combustion diphasique
+	* Maison de la Simulation : Création d'un outil d'agrégation de performances énergétiques
 
 10/2015
 :     **Rapid Analytics and Model Prototyping** (2 jours)
-
-* *Challenge de classification d'images d'insectes pollenisateurs par deep learning sur GPU*
-* Laboratoire de l'Accélérateur Linéaire, Université de Paris Sud et Musée National d'Histoire Naturelle
+:     *Challenge de classification d'images d'insectes pollenisateurs par deep learning sur GPU*
+:     Laboratoire de l'Accélérateur Linéaire, Université de Paris Sud et Musée National d'Histoire Naturelle
 
 2011--2014
 :    **Thèse de Doctorat en Mathématiques Appliquées**
@@ -43,27 +43,23 @@ Depuis 01/2015
 
 03/2013
 :     **Semaine d'Étude Mathématiques et Entreprises (SEME)** (1 semaine)
-
-* *Représentation des fonctions de réponse radiométrique*
-* Kolor et Laboratoire Jean Kuntzmann, Grenoble
+:     *Représentation des fonctions de réponse radiométrique*
+:     Kolor et Laboratoire Jean Kuntzmann, Grenoble
 
 08/2012
 :     **Centre d’Eté Mathématique de Recherche Avancée en Calcul Scientifique (CEMRACS)** (6 semaines)
-
-* *Quantification de l'élasticité du cloud en fonction de la variation des demandes modélisées comme un flux  turbulent* [@Etancelin2013c]
-* Cisco Systems France, Issy les Moulineaux et Centre International de Rencontres Mathématiques, Marseille
+:     *Quantification de l'élasticité du cloud en fonction de la variation des demandes modélisées comme un flux  turbulent* [@Etancelin2013c]
+:     Cisco Systems France, Issy les Moulineaux et Centre International de Rencontres Mathématiques, Marseille
 
 2010/2011
 :     **Stage master recherche et projet de fin d'études** (6 mois)
-
-* *Evaluation des différentes formulations du terme de déformation en 3D Vortex Blob et applications sur des jets transverses et anneaux de vorticité*
-* Laboratoire Ondes et Milieux Complexes, Université du Havre
+:     *Evaluation des différentes formulations du terme de déformation en 3D Vortex Blob et applications sur des jets transverses et anneaux de vorticité*
+:     Laboratoire Ondes et Milieux Complexes, Université du Havre
 
 2010
 :     **Stage ingénieur** (5 mois)
-
-* *Caractérisation numérique du comportement d'hydroliennes* [@Germain]
-* Institut Francais de Recherche pour l'Exploitation de la MER Boulogne-Sur-Mer et Laboratoire Ondes et Milieux Complexes, Université du Havre
+:     *Caractérisation numérique du comportement d'hydroliennes* [@Germain]
+:     Institut Francais de Recherche pour l'Exploitation de la MER Boulogne-Sur-Mer et Laboratoire Ondes et Milieux Complexes, Université du Havre
 
 ## Formation
 
@@ -99,7 +95,7 @@ Depuis 01/2015
 ## Compétences techniques
 
 Calcul parallèle
-:    CUDA, OpenCL, OpenACC, MPI, OpenMP
+:    CUDA, OpenCL, OpenACC, OpenMP, MPI
 
 Programmation
 :    Python, C/C++, Fortran, Shell Unix

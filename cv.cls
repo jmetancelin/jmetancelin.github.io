@@ -104,7 +104,16 @@
   labelwidth=0pt,%\leftalign,
   align=right,
   leftmargin=10pt,
-  itemindent=0pt,
+  itemindent=-10pt,
+}
+
+\setlist[itemize,2]{%
+  topsep=0pt,partopsep=0pt,parsep=0pt,itemsep=0pt,
+  labelsep=3mm,
+  labelwidth=0pt,%\leftalign,
+  align=right,
+  leftmargin=10pt,
+  itemindent=-10pt,
 }
 
 % \setlist[itemize,2]{%
