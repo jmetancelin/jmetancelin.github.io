@@ -133,7 +133,8 @@
 backend=bibtex,
 %hyperref=true,
 natbib=true,
-sorting=ydnt,
+sorting=none,
+%sorting=ydnt,
 % citestyle=numbers,%authoryear,
 % bibstyle=numbers,%authoryear,
 % %backref=true,
@@ -166,7 +167,7 @@ url=false,
     \href{\thefield{url}}{#1}%
   }%
 }
-\newcommand{\doi}[1]{\textsc{doi}: \href{http://dx.doi.org/#1}{\nolinkurl{#1}}}
+\newcommand{\doi}[1]{\textsc{doi}:\href{http://dx.doi.org/#1}{\nolinkurl{#1}}}
 
 \DeclareFieldFormat{title}{\usebibmacro{string+doiurlisbn}{\mkbibemph{#1}}}
 \DeclareFieldFormat[article,incollection]{title}%
