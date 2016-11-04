@@ -52,12 +52,12 @@ JMEtancelin_Resume.tex: cv.md cv_biblatex_end.tex cv_header.tex cv_begin.tex
 	@sed -i.orig 's/\\date{}//' $@
 	rm $@.orig
 
-JMEtancelin_CV.pdf: JMEtancelin_CV.tex cv.cls
+JMEtancelin_CV.pdf: JMEtancelin_CV.tex cv.cls MyBib.bib
 	latexmk -silent -pdf $<
 	latexmk -c -e '$$clean_ext = "tdo brf synctex.gz run.xml orig"' $<
 	rm -f $(outdir)/*blx.bib
 
-JMEtancelin_Resume.pdf: JMEtancelin_Resume.tex cv.cls
+JMEtancelin_Resume.pdf: JMEtancelin_Resume.tex cv.cls MyBib.bib
 	latexmk -silent -pdf $<
 	latexmk -c -e '$$clean_ext = "tdo brf synctex.gz run.xml orig"' $<
 	rm -f $(outdir)/*blx.bib

@@ -16,8 +16,8 @@ Depuis 01/2015
 
 * **Laboratoire d'applications GPU (NVIDIA)**: Expertise auprès des utilisateurs pour le portage et l'optimisation et le passage à l'échelle de codes de calcul sur GPU.
 * **Veille technologique**: Mise en œuvre de librairies, outils et logiciels spécifiques à l'exploitation du calculateur hybride ROMEO.
-* **Communication**: Formations aux utilisateurs et étudiants en technologies de calcul sur GPU et en calcul hybride. Production de communications scientifiques [@GTC2016LAB] [@GTC2016ONERA] [@LeGouez2015].
-* **Vacations**: 52h en Master 2 Informatique, URCA.
+* **Communication**: Formations aux utilisateurs et étudiants en technologies de calcul sur GPU et en calcul hybride. Production de communications scientifiques [@GTC2016EULAB] [@GTC2016LAB] [@GTC2016ONERA] [@LeGouez2015].
+* **Vacations**: 91h en Master 2 Informatique, URCA.
 * **Collaborations**:
     * ONERA : Optimisation et passage à l'échelle d'un code de recherche volumes finis d'ordre élevé multi-GPU pour la simulation de profils aérodynamiques en conditions réalistes,
     * ICMR et ATOS : Optimisation d'un code GPU d'étude de systèmes moléculaires basé sur l'étude d'interactions non covalentes en vue d'une utilisation par un algorithme génétique,

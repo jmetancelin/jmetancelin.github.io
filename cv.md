@@ -16,8 +16,8 @@ Since 01/2015
 
 * **GPU Application Lab**: Expertise in porting and optimisation of GPU accelerated codes for users.
 * **Technology watch**: Specific libraries, softwares and tools for exploiting heterogeneous clusters.
-* **Communication**: courses in GPU technologies and hybrid computing to users and students. Contributing to scientific communications [@GTC2016LAB] [@GTC2016ONERA] [@LeGouez2015].
-* **Teaching**: 52h in Master's degree in Computer Science, URCA
+* **Communication**: courses in GPU technologies and hybrid computing to users and students. Contributing to scientific communications [@GTC2016EULAB] [@GTC2016LAB] [@GTC2016ONERA] [@LeGouez2015].
+* **Teaching**: 91h in Master's degree in Computer Science, URCA
 * **Collaborations**:
     * ONERA : Optimisation and upscaling of a multi-GPU high order finite volumes research code based on a LES method for realistic aerodynamic profiles
     * ICMR et ATOS : Optimization of a GPU code for molecular systems study based on non covalent interactions in the context of genetic algorithm
