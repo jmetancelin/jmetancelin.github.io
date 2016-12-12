@@ -25,9 +25,9 @@ $(outdir):
 
 $(outdir)/%.html: %.md %.footer $(deps)
 ifneq ($(outdir), $(currentdir))
-	sed 's/ \[@[a-zA-Z0-9]*\]//g' $< | pandoc -s -o $@ -H header.html -B `echo '$@' | sed -E 's/(.*\/)?[a-zA-Z0-9]*(.|_fr.)html/menu\2html/'` -A $(word 2,$^) -V highlighting-css=".title {display: none;}"
+	sed 's/\[@[a-zA-Z0-9]*\]//g' $< | pandoc -s -o $@ -H header.html -B `echo '$@' | sed -E 's/(.*\/)?[a-zA-Z0-9]*(.|_fr.)html/menu\2html/'` -A $(word 2,$^) -V highlighting-css=".title {display: none;}"
 else
-	sed 's/ \[@[a-zA-Z0-9]*\]//g' $< | pandoc -s -o $@ -H header.html -B `echo '$@' | sed -E 's/(.*\/)?[a-zA-Z0-9]*(.|_fr.)html/menu\2html/'` -A $(word 2,$^) -V highlighting-css=".title {display: none;} .navigation {display: none;}"
+	sed 's/\[@[a-zA-Z0-9]*\]//g' $< | pandoc -s -o $@ -H header.html -B `echo '$@' | sed -E 's/(.*\/)?[a-zA-Z0-9]*(.|_fr.)html/menu\2html/'` -A $(word 2,$^) -V highlighting-css=".title {display: none;} .navigation {display: none;}"
 endif
 	sed -i.orig 's/a href="http/a target="_blank" href="http/g' $@
 	sed -i.orig 's/a target="_blank" href="http:\/\/jmetancelin.free.fr/a href="http:\/\/jmetancelin.free.fr/g' $@
@@ -42,6 +42,7 @@ JMEtancelin_CV.tex: cv_fr.md cv_biblatex_end.tex cv_header_fr.tex cv_begin.tex
 	@sed -i.orig 's/\\printbibliography$$//' $@
 	@sed -i.orig 's/\([a-zA-Z0-9]\) :/\1:/g' $@
 	@sed -i.orig 's/\\date{}//' $@
+	@sed -i.orig 's/[}][\]autocite[{]/,/g' $@
 	rm $@.orig
 
 JMEtancelin_Resume.tex: cv.md cv_biblatex_end.tex cv_header.tex cv_begin.tex

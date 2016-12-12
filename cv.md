@@ -16,13 +16,14 @@ Since 01/2015
 
 * **GPU Application Lab**: Expertise in porting and optimisation of GPU accelerated codes for users.
 * **Technology watch**: Specific libraries, softwares and tools for exploiting heterogeneous clusters.
-* **Communication**: courses in GPU technologies and hybrid computing to users and students. Contributing to scientific communications [@GTC2016EULAB] [@GTC2016LAB] [@GTC2016ONERA] [@LeGouez2015].
+* **Communication**: courses in GPU technologies and hybrid computing to users and students. Contributing to scientific communications [@Rubez2016][@GTC2016EULAB][@GTC2016LAB][@GTC2016ONERA][@LeGouez2015].
 * **Teaching**: 91h in Master's degree in Computer Science, URCA
 * **Collaborations**:
-    * ONERA : Optimisation and upscaling of a multi-GPU high order finite volumes research code based on a LES method for realistic aerodynamic profiles
-    * ICMR et ATOS : Optimization of a GPU code for molecular systems study based on non covalent interactions in the context of genetic algorithm
-    * CORIA : Preliminary study of GPU porting of the two-phase combustion code Yales2
-	* Maison de la Simulation : Design of an aggregation tool for renergy performances
+    * ONERA : Optimisation and upscaling of a multi-GPU high order finite volumes research code based on a LES method for realistic aerodynamic profiles [@GTC2016ONERA][@LeGouez2015],
+    * ICMR (University of Reims) and ATOS : Optimization of a GPU code for molecular systems study based on non covalent interactions in the context of genetic algorithm [@Rubez2016],
+    * CORIA (University of Rouen) : Preliminary study of GPU porting of the two-phase combustion code Yales2,
+	* IRMA (University of Strasbourg) : GPU porting of a research code on plasmas simulations,
+	* Maison de la Simulation : Design of an aggregation tool for renergy performances.
 
 10/2015
 :     **Rapid Analytics and Model Prototyping**
@@ -36,7 +37,7 @@ Since 01/2015
 * **Place**: Laboratoire Jean Kuntzmann, Université Joseph Fourier, Grenoble
 * **Supervisors**: G.-H. Cottet et C. Picard
 * **Research**: Analysis and extension of a remeshed  paricle method, multiscale algorithms implementation on GPU, multi-CPU/multi-GPU hybrid computations on regional and local clusters, applications to turbulent flows simulation.
-* **Communication**: National [@Etancelin2013b] and international conferences [@Etancelin2014a] [@Balarac2014], peer reviewed articles [@Etancelin2014], user and developper technical report.
+* **Communication**: National [@Etancelin2013b] and international conferences [@Etancelin2014a][@Balarac2014], peer reviewed articles [@Etancelin2014], user and developper technical report.
 * **C3I certification:** HPC certification, GENCI.
 * **Teaching**: Computer science and programming techinques (135 h, Cours/TD/TP, L1), multivariate functions and linear algebra (36 h, TD, L2), Scilab practical session: image, signal, interpolation, curves and surfaces (27 h, TP, L1).
 * PhD defended on the 4th of december 2014

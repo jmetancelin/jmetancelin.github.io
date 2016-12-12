@@ -16,12 +16,13 @@ Depuis 01/2015
 
 * **Laboratoire d'applications GPU (NVIDIA)**: Expertise auprès des utilisateurs pour le portage et l'optimisation et le passage à l'échelle de codes de calcul sur GPU.
 * **Veille technologique**: Mise en œuvre de librairies, outils et logiciels spécifiques à l'exploitation du calculateur hybride ROMEO.
-* **Communication**: Formations aux utilisateurs et étudiants en technologies de calcul sur GPU et en calcul hybride. Production de communications scientifiques [@GTC2016EULAB] [@GTC2016LAB] [@GTC2016ONERA] [@LeGouez2015].
-* **Vacations**: 91h en Master 2 Informatique, URCA.
+* **Communication**: Formations aux utilisateurs et étudiants en technologies de calcul sur GPU et en calcul hybride. Production de communications scientifiques [@Rubez2016][@GTC2016EULAB][@GTC2016LAB][@GTC2016ONERA][@LeGouez2015].
+* **Vacations**: 86h en Master 2 Informatique, URCA.
 * **Collaborations**:
-    * ONERA : Optimisation et passage à l'échelle d'un code de recherche volumes finis d'ordre élevé multi-GPU pour la simulation de profils aérodynamiques en conditions réalistes,
-    * ICMR et ATOS : Optimisation d'un code GPU d'étude de systèmes moléculaires basé sur l'étude d'interactions non covalentes en vue d'une utilisation par un algorithme génétique,
-    * CORIA : Étude préliminaire du portage sur GPU du code Yales2 de combustion diphasique,
+    * ONERA : Optimisation et passage à l'échelle d'un code de recherche volumes finis d'ordre élevé multi-GPU pour la simulation de profils aérodynamiques en conditions réalistes [@GTC2016ONERA][@LeGouez2015],
+    * ICMR (Université de Reims) et ATOS : Optimisation d'un code GPU d'étude de systèmes moléculaires basé sur l'étude d'interactions non covalentes en vue d'une utilisation par un algorithme génétique [@Rubez2016],
+    * CORIA (Université de Rouen) : Étude préliminaire du portage sur GPU du code Yales2 de combustion diphasique,
+	* IRMA (Université de Strasbourg) : portage sur GPU d’un code de recherche de simulation de plasmas,
 	* Maison de la Simulation : Création d'un outil d'agrégation de performances énergétiques.
 
 10/2015
@@ -36,7 +37,7 @@ Depuis 01/2015
 * **Lieu**: Laboratoire Jean Kuntzmann (LJK), Grenoble.
 * **Encadrement**: Georges-Henri Cottet (directeur de thèse) et Christophe Picard (co-encadrant).
 * **Recherche**: Analyse et extension d'une classe de méthode semi-Lagrangienne, implémentation multi-GPU d'algorithmes multi-échelle, calcul hybride multi-CPU/multi-GPU sur calculateurs locaux et régionaux, application à la simulation d'écoulements turbulents.
-* **Communication**: Conférences nationales [@Etancelin2013b] et internationales [@Etancelin2014a] [@Balarac2014], articles [@Etancelin2014], documentation technique.
+* **Communication**: Conférences nationales [@Etancelin2013b] et internationales [@Etancelin2014a][@Balarac2014], articles [@Etancelin2014], documentation technique.
 * **Certificat de Compétences en Calcul Intensif (C3I)**, Grand Équipement National de Calcul Intensif (GENCI).
 * **Mission complémentaire d'enseignement**: 198h Département Licence Sciences et Technologies, Université Joseph Fourier.
 * Thèse soutenue le 4 décembre 2014.
@@ -85,7 +86,7 @@ Depuis 01/2015
 * **Financement**: projet ANR HAMM (ANR-10-COSI-0009).
 
 2010--2011
-:    **Master 2 Recherche** Mathématique et Informatique des Systèmes complexes et distribués, Université du Havre.
+:    **Master 2 Recherche** Mathématiques et Informatique des Systèmes complexes et distribués, Université du Havre.
 
 2006--2011
 :    **Ingénieur** Génie Mathématique, Institut National des Sciences Appliquées (INSA) de Rouen.
