@@ -102,7 +102,7 @@ Programmation
 :    Python, C/C++, Fortran, Shell Unix.
 
 Outils
-:    Jupyter, TAU, git, ParaView, Gnuplot, \LaTeX.
+:    Jupyter, TAU, git, ParaView, HDF5, Gnuplot, \LaTeX.
 
 Langues
 :    Anglais: courant (TOEIC: 830/990, 2010)

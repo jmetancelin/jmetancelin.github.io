@@ -15,6 +15,7 @@ The recent heterogeneous architectures provide both CPU and accelerators (GPU, c
 
 - Distribute computations on both CPU and co-processors (GPU)
 - Efficient usage of full hybrid clusters
+- 'In-situ' parallelism
 
 ## Hybrid remeshed particle methods (semi-Lagrangian particle method)
 
@@ -40,6 +41,7 @@ The recent heterogeneous architectures provide both CPU and accelerators (GPU, c
 Optimizing and up-scaling a research code, NextFlow, developped at ONERA. The aim of this code is to demonstrate feasibility of LES methods for simulating turbulent flows in realisstic aerodynamic configurations.
 
 - Multi-GPU code based on Finite Volumes methods with high order polynomial reconstruction of conservatives variables.
+- Asynchronous co-processing on uused CPU cores
 
 ## NCI calculations using promolecular density (ICMR and ATOS)
 

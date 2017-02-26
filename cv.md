@@ -17,7 +17,7 @@ Since 01/2015
 * **GPU Application Lab**: Expertise in porting and optimisation of GPU accelerated codes for users.
 * **Technology watch**: Specific libraries, softwares and tools for exploiting heterogeneous clusters.
 * **Communication**: courses in GPU technologies and hybrid computing to users and students. Contributing to scientific communications [@Rubez2016][@GTC2016EULAB][@GTC2016LAB][@GTC2016ONERA][@LeGouez2015].
-* **Teaching**: 91h in Master's degree in Computer Science, URCA
+* **Teaching**: 86h in Master's degree in Computer Science, URCA
 * **Collaborations**:
     * ONERA : Optimisation and upscaling of a multi-GPU high order finite volumes research code based on a LES method for realistic aerodynamic profiles [@GTC2016ONERA][@LeGouez2015],
     * ICMR (University of Reims) and ATOS : Optimization of a GPU code for molecular systems study based on non covalent interactions in the context of genetic algorithm [@Rubez2016],
@@ -99,7 +99,7 @@ Programming
 :    Python, C/C++, Fortran, Shell Unix
 
 Tools
-:    Jupyter, TAU, git, svn, ParaView, Gnuplot, \LaTeX
+:    Jupyter, TAU, git, svn, ParaView, HDF5, Gnuplot, \LaTeX
 
 Languages
 :    French: native, English: fluent (TOEIC: 830/990, 2010)

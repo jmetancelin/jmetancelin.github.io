@@ -24,7 +24,7 @@ Mots clés:
 
 - Semaine de formation aux technologies GPU ([Reims GPU Spring School](https://romeo.univ-reims.fr/GpuSchool)) pour un public de chercheurs, industriels et doctorants
 
-### 2015/2016 (Université de Reims Champagne-Ardenne)
+### 2015/2016 et 2016/2017 (Université de Reims Champagne-Ardenne)
 
 - Programmation GPU avancée (M2)
 - Calcul hautes performances (M2)

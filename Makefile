@@ -10,7 +10,7 @@ pages_fr=$(patsubst %.md,$(outdir)/%.html,$(src_fr))
 pages_en=$(patsubst %.md,$(outdir)/%.html,$(src_en))
 deps=header.html menu.html menu_fr.html
 
-all: $(outdir) $(pages) $(outdir)/JMEtancelin_CV.pdf $(outdir)/JMEtancelin_Resume.pdf $(outdir)/styles.css $(outdir)/images $(outdir)/photo_jm_s.JPG
+all: $(outdir) $(pages) JMEtancelin_CV.pdf JMEtancelin_Resume.pdf $(outdir)/JMEtancelin_CV.pdf $(outdir)/JMEtancelin_Resume.pdf $(outdir)/styles.css $(outdir)/images $(outdir)/photo_jm_s.JPG
 all_fr: $(outdir) $(pages_fr)
 all_en: $(outdir) $(pages_en)
 
@@ -51,6 +51,7 @@ JMEtancelin_Resume.tex: cv.md cv_biblatex_end.tex cv_header.tex cv_begin.tex
 	@sed -i.orig 's/\\printbibliography$$//' $@
 	@sed -i.orig 's/\([a-zA-Z0-9]\) :/\1:/g' $@
 	@sed -i.orig 's/\\date{}//' $@
+	@sed -i.orig 's/[}][\]autocite[{]/,/g' $@
 	rm $@.orig
 
 JMEtancelin_CV.pdf: JMEtancelin_CV.tex cv.cls MyBib.bib
@@ -65,7 +66,7 @@ JMEtancelin_Resume.pdf: JMEtancelin_Resume.tex cv.cls MyBib.bib
 
 
 ifneq ($(outdir), $(currentdir))
-$(outdir)/%:  % $(outdir)
+$(outdir)/%.pdf:  %.pdf $(outdir)
 	cp $< $@
 
 $(outdir)/images: $(outdir)

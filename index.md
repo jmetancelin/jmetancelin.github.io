@@ -2,7 +2,7 @@
 
 # PhD, Engineer
 
-I am a research engineer at [Champagne-Ardenne HPC Center ROMEO](https://romeo.univ-reims.fr/) at the [University of Reims Champagne-Ardenne](http://www.univ-reims.eu/). I am involved in a NVIDIA GPU Application Lab in which we help users to benefit from the GPU powered cluster ROMEO. Beside code porting, optimization on GPU and scaling up to hundreds of GPUs, I am interested in algorithms and methods adaptation to heterogeneous architectures. I am involved in several projects on different domains of application such as Computational Fluid Dynamics, Computational Chemistry, Applied Mathematics and Computer Science.
+I am a research engineer at [Champagne-Ardenne HPC Center ROMEO](https://romeo.univ-reims.fr/) at the [University of Reims Champagne-Ardenne](http://www.univ-reims.eu/). I am involved in a NVIDIA GPU Application Lab in which we help users to benefit from the GPU powered cluster ROMEO. Beside code porting, optimization on GPU and scaling up to hundreds of GPUs, I am interested in algorithms and methods adaptation to heterogeneous architectures. I am involved in several projects from different domains of application such as Computational Fluid Dynamics, Computational Chemistry, Applied Mathematics and Computer Science.
 
 ## Research
 
@@ -25,7 +25,7 @@ Keywords :
 
 - Training week on GPU technologies ([Reims GPU Spring School](https://romeo.univ-reims.fr/GpuSchool)) for researchers, industrials and PhD students
 
-### 2015/2016 (University of Reims Champagne-Ardenne)
+### 2015/2016 and 2016/2017 (University of Reims Champagne-Ardenne)
 
 - Advanced GPU programming (M2)
 - High performance computing (M2)

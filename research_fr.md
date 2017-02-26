@@ -15,6 +15,7 @@ Les architectures matérielles actuelles sont génératlement composées de proc
 
 - Répartition des calculs entre CPU et co-processeurs (GPU)
 - Exploitation efficace de calculateurs hybrides
+- Parallélisme 'in-situ'
 
 ## Méthodes particulaire avec remaillage et hybrides (méthodes particulaires semi-Lagrangienne)
 
@@ -40,6 +41,7 @@ Les architectures matérielles actuelles sont génératlement composées de proc
 Optimisation et passage à l'échelle d'un code de recherche, NextFlow, développé à l'ONERA. Ce code vise à montrer la faisabilité de l'utilisation de méthodes de type LES pour la simulation d'écoulements turbulents en aéronautique dans des configurations réalistes.
 
 - Code multi-GPU basé sur une méthode volumes finis d'ordre élevé avec reconstruction polynomiale des variables conservatives.
+- Co-traitements asynchrones sur les coeurs CPU inutilisés
 
 ## Calculs d'interactions non-covalentes à partir de la densité promoléculaire (ICMR et ATOS)
 
