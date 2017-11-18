@@ -2,7 +2,9 @@
 
 # PhD, Engineer
 
-I am a research engineer at [Champagne-Ardenne HPC Center ROMEO](https://romeo.univ-reims.fr/) at the [University of Reims Champagne-Ardenne](http://www.univ-reims.eu/). I am involved in a NVIDIA GPU Application Lab in which we help users to benefit from the GPU powered cluster ROMEO. Beside code porting, optimization on GPU and scaling up to hundreds of GPUs, I am interested in algorithms and methods adaptation to heterogeneous architectures. I am involved in several projects from different domains of application such as Computational Fluid Dynamics, Computational Chemistry, Applied Mathematics and Computer Science.
+Since 09/2017  I am an Assistant Professor at the University of Pau.
+
+Between 01/2015 and 08/2017, I was a research engineer at [Champagne-Ardenne HPC Center ROMEO](https://romeo.univ-reims.fr/) at the [University of Reims Champagne-Ardenne](http://www.univ-reims.eu/). I am involved in a NVIDIA GPU Application Lab in which we help users to benefit from the GPU powered cluster ROMEO. Beside code porting, optimization on GPU and scaling up to hundreds of GPUs, I am interested in algorithms and methods adaptation to heterogeneous architectures. I am involved in several projects from different domains of application such as Computational Fluid Dynamics, Computational Chemistry, Applied Mathematics and Computer Science.
 
 ## Research
 
@@ -21,9 +23,14 @@ Keywords :
 
 ## Teaching
 
-### May 2016 GPU Spring School (University of Reims Champagne-Ardenne)
+### 2017/2018 (University of Pau)
 
-- Training week on GPU technologies ([Reims GPU Spring School](https://romeo.univ-reims.fr/GpuSchool)) for researchers, industrials and PhD students
+- High performance computing (M2)
+
+### Trainings for researchers, industrials and PhD students
+
+- Parallel codes profiling ([Profiler Days](https://romeo.univ-reims.fr/news/231/Formation_au_profiling_d_application_avec_des_outils_gratuits)), April 2017
+- Training week on GPU technologies ([Reims GPU Spring School](https://romeo.univ-reims.fr/GpuSchool)), May 2016
 
 ### 2015/2016 and 2016/2017 (University of Reims Champagne-Ardenne)
 

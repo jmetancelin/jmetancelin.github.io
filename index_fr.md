@@ -2,7 +2,9 @@
 
 # Docteur, Ingénieur
 
-J'occupe actuellement un poste d'ingénieur de recherche au [Centre de Calcul de Champagne-Ardenne ROMEO](https://romeo.univ-reims.fr/) à l'[Université de Reims Champagne-Ardenne](http://www.univ-reims.fr/). Au sein du Laboratoire d'Applications GPU (NVIDIA GPU Application Lab), mon rôle consiste à apporter une expertise auprès des utilisateurs pour exploiter les GPU du calculateur hybride ROMEO. En collaboration avec ces utilisateurs, je réalise des opérations de portage de code sur GPU ainsi que de passage à l'échelle et d'optimisation sur plusieurs centaines de GPU. De manière plus générale, je m'intéresse aux problématiques liées à l'adaptation des algorithmes et des méthodes numériques aux architectures hétérogènes. Dans ce contexte, je participe à plusieurs projets dans différents domaines d'applications comme la mécanique des fluides, la chimie théorique, les mathématiques appliquées et l'informatique.
+Depuis 09/2017, je suis Maître de Conférences en Mathématiques à l'Université de Pau et des Pays de l'Adour.
+
+Entre 01/2015 et 08/2017, j'étais ingénieur de recherche au [Centre de Calcul de Champagne-Ardenne ROMEO](https://romeo.univ-reims.fr/) à l'[Université de Reims Champagne-Ardenne](http://www.univ-reims.fr/). Au sein du Laboratoire d'Applications GPU (NVIDIA GPU Application Lab), mon rôle consistait à apporter une expertise auprès des utilisateurs pour exploiter les GPU du calculateur hybride ROMEO. En collaboration avec ces utilisateurs, je réalisait des opérations de portage de code sur GPU ainsi que de passage à l'échelle et d'optimisation sur plusieurs centaines de GPU. De manière plus générale, je me suis intéressé aux problématiques liées à l'adaptation des algorithmes et des méthodes numériques aux architectures hétérogènes. Dans ce contexte, j'ai participé à plusieurs projets dans différents domaines d'applications comme la mécanique des fluides, la chimie théorique, les mathématiques appliquées et l'informatique.
 
 ## Recherche
 
@@ -20,9 +22,14 @@ Mots clés:
 
 ## Enseignement
 
-### Mai 2016 : École de printemps GPU (Université de Reims Champagne-Ardenne)
+### 2017/2018 (Université de Pau et des Pays de l'Adour)
 
-- Semaine de formation aux technologies GPU ([Reims GPU Spring School](https://romeo.univ-reims.fr/GpuSchool)) pour un public de chercheurs, industriels et doctorants
+- Calcul à haute performance (M2)
+
+### Formations pour un public de chercheurs, industriels et doctorants
+
+- Profilage de codes parallèles ([Profiler Days](https://romeo.univ-reims.fr/news/231/Formation_au_profiling_d_application_avec_des_outils_gratuits)), avril 2017
+- Semaine de formation aux technologies GPU ([Reims GPU Spring School](https://romeo.univ-reims.fr/GpuSchool)), mai 2016
 
 ### 2015/2016 et 2016/2017 (Université de Reims Champagne-Ardenne)
 
