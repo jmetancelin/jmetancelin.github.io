@@ -3,15 +3,15 @@
 
 ## Current position
 
-Research Engineer
-:    ROMEO HPC Center of Reims Champagne-Ardenne and in the CReSTIC Computer Science Laboratory of University of Reims Champagne-Ardenne. NVIDIA GPU Application Lab.
+Assistant professor
+:    University of Pau, Mathematics and their applications lab.
 
 Teaching
-:    HPC courses in the Master's degree in Computer Science, URCA.
+:    Math, Applied Math and HPC courses in Licence and Master degree, UPPA
 
 ## Experiences
 
-Since 01/2015
+01/2015 -- 08/2017
 :    **Research engineer, expert in GPU technlogies**, ROMEO HPC Center of Reims, CReSTIC, URCA
 
 * **GPU Application Lab**: Expertise in porting and optimisation of GPU accelerated codes for users.

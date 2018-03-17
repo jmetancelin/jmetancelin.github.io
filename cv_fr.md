@@ -3,15 +3,15 @@
 
 ## Situation actuelle
 
-Ingénieur de Recherche
-:    Centre de Calcul de Champagne-Ardenne ROMEO et Centre de Recherche en Sciences et Technologies de l'Information et de la Communication (CReSTIC), Université de Reims Champagne-Ardenne (URCA), Laboratoire d'Applications GPU, NVIDIA.
+Maitre de Conférences en Mathématiques
+:    Université de Pau et des Pays de l'Adour, Laboratoire de Mathématiques et leurs Applications
 
-Vacations
-:    Master 2 Informatique, URCA.
+Enseignement
+:    Math, Math Appliquées et HPC en Licence et Master, UPPA
 
 ## Expériences
 
-Depuis 01/2015
+01/2015 -- 08/2017
 :    **Ingénieur de recherche, expert en technologies GPU**, Centre de calcul de Champagne-Ardenne ROMEO, CReSTIC, URCA, Reims.
 
 * **Laboratoire d'applications GPU (NVIDIA)**: Expertise auprès des utilisateurs pour le portage, l'optimisation et le passage à l'échelle de codes de calculs sur GPU.
