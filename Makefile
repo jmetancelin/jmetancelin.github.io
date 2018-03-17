@@ -24,12 +24,7 @@ $(outdir):
 	sed 's/FILEFR/$(subst .footer,_fr.html,$@)/;s/FILEEN/$(subst .footer,.html,$@)/' footer.html > $@
 
 $(outdir)/%.html: %.md %.footer $(deps)
-ifneq ($(outdir), $(currentdir))
-	sed 's/\[@[a-zA-Z0-9]*\]//g' $< | pandoc -s -o $@ -H header.html -B `echo '$@' | sed -E 's/(.*\/)?[a-zA-Z0-9]*(.|_fr.)html/menu\2html/'` -A $(word 2,$^) -V highlighting-css=".title {display: none;}"
-else
 	sed 's/\[@[a-zA-Z0-9]*\]//g' $< | pandoc -s -o $@ -H header.html -B `echo '$@' | sed -E 's/(.*\/)?[a-zA-Z0-9]*(.|_fr.)html/menu\2html/'` -A $(word 2,$^) -V highlighting-css=".title {display: none;} "
-	#
-endif
 	sed -i.orig 's/a href="http/a target="_blank" href="http/g' $@
 	sed -i.orig 's/a target="_blank" href="http:\/\/jmetancelin.free.fr/a href="http:\/\/jmetancelin.free.fr/g' $@
 	rm $@.orig
