@@ -1,4 +1,3 @@
-
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{cv}[2015/06/03 CV class]
 \LoadClass[a4paper,11pt]{article}
@@ -221,20 +220,21 @@ url=false,
   \printtext[textcitehyperref]{%
     \restorebibmacro{textcite}%
     \usebibmacro{textcite}}}
+
 \newcommand{\makeauthorbold}[1]{%
 \DeclareNameFormat{author}{%
-  \ifnumequal{\value{listcount}}{1}
-    {\ifnumequal{\value{liststop}}{1}
-      {\expandafter\ifstrequal{##1}{#1}{\textbf{##4\addcomma\addspace ##1\addcomma\isdot}}{##4\addcomma\addspace ##1\addcomma\isdot}}
-      {\expandafter\ifstrequal{##1}{#1}{\textbf{##4\addcomma\addspace ##1}}{##4\addcomma\addspace ##1}}}
-    {\ifnumless{\value{listcount}}{\value{liststop}}
-      {\expandafter\ifstrequal{##1}{#1}{\textbf{\addcomma\addspace ##4\addcomma\addspace ##1}}{\addcomma\addspace ##4\addcomma\addspace ##1}}
-      {\expandafter\ifstrequal{##1}{#1}{\textbf{\addcomma\addspace ##4\addcomma\addspace ##1\addcomma\isdot}}{\addcomma\addspace ##4\addcomma\addspace ##1\addcomma\isdot}}%
-    }%
+  \ifnumequal{\value{listcount}}{1}{}{\addcomma\addspace}%
+  \ifnum\pdfstrcmp{\namepartfamily}{#1}=0
+  \textbf{\ifdefvoid{\namepartgiveni}{}{\namepartgiveni\addspace}\namepartfamily}%
+  \else\ifdefvoid{\namepartgiveni}{}{\namepartgiveni\addspace}\namepartfamily%
+  \fi%
+  \ifnumequal{\value{listcount}}{1}{%
+    \ifnumequal{\value{liststop}}{1}{\addcomma\isdot}{}%
+  }{%
+    \ifnumless{\value{listcount}}{\value{liststop}}{}{\addcomma\isdot}}%
 }%
 }
 \makeauthorbold{Etancelin}
-
 % \defbibenvironment{bibliography}
 % {\list{}
 %   {\setlength{\leftmargin}{\bibhang}%

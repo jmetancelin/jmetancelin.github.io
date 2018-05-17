@@ -16,12 +16,15 @@ Enseignement
 
 * **Laboratoire d'applications GPU (NVIDIA)**: Expertise auprès des utilisateurs pour le portage, l'optimisation et le passage à l'échelle de codes de calculs sur GPU.
 * **Veille technologique**: Mise en œuvre de librairies, d'outils et de logiciels spécifiques à l'exploitation du calculateur hybride ROMEO.
-* **Communication**: Formations en technologies de calcul sur GPU et en calcul hybride auprès des utilisateurs et étudiants. Production de communications scientifiques [@Rubez2016][@GTC2016EULAB][@GTC2016LAB][@GTC2016ONERA][@LeGouez2015].
+* **Communication**: Formations en technologies de calcul sur GPU et
+  en calcul hybride auprès des utilisateurs et
+  étudiants. Développement d'une plateforme web d'enseignement en HPC [@renardromeolab2017]. Production de communications scientifiques [@rubezgpu2017][@etancelinmultigpu2016][@etancelinadvanced2016][@legoueznumerical2015][@legouezoptimized2016].
 * **Vacations**: 86h en Master 2 Informatique, URCA.
 * **Collaborations**:
-    * ONERA : Optimisation et passage à l'échelle d'un code de recherche volumes finis d'ordre élevé multi-GPU pour la simulation de profils aérodynamiques en conditions réalistes [@GTC2016ONERA][@LeGouez2015],
-    * ICMR (Université de Reims) et ATOS : Optimisation d'un code GPU d'étude de systèmes moléculaires basé sur l'étude d'interactions non covalentes, en vue d'une utilisation par un algorithme génétique [@Rubez2016],
-    * CORIA (Université de Rouen) : Étude préliminaire du portage sur GPU du code Yales2 de combustion diphasique,
+    * ONERA : Optimisation et passage à l'échelle d'un code de recherche volumes finis d'ordre élevé multi-GPU pour la simulation de profils aérodynamiques en conditions réalistes [@legoueznumerical2015][@legouezoptimized2016],
+    * ICMR (Université de Reims) et ATOS : Optimisation d'un code GPU d'étude de systèmes moléculaires basé sur l'étude d'interactions non covalentes, en vue d'une utilisation par un algorithme génétique [@rubezgpu2017],
+    * CORIA (Université de Rouen) : Étude préliminaire du portage sur
+      GPU du code Yales2 de combustion diphasique [@hautreuxpreexascale2017],
 	* IRMA (Université de Strasbourg) : portage sur GPU d’un code de recherche de simulation de plasmas,
 	* Maison de la Simulation : Création d'un outil d'agrégation de performances énergétiques.
 *
@@ -38,7 +41,7 @@ Enseignement
 * **Lieu**: Laboratoire Jean Kuntzmann (LJK), Grenoble.
 * **Encadrement**: Georges-Henri Cottet (directeur de thèse) et Christophe Picard (co-encadrant).
 * **Recherche**: Analyse et extension d'une classe de méthode semi-Lagrangienne (particulaire avec remaillage), implémentation multi-GPU d'algorithmes multi-échelle, calcul hybride multi-CPU/multi-GPU sur calculateurs locaux et régionaux, application à la simulation d'écoulements turbulents.
-* **Communication**: Conférences nationales [@Etancelin2013b] et internationales [@Etancelin2014a][@Balarac2014], articles [@Etancelin2014], documentation technique.
+* **Communication**: Conférences nationales [@cottetgpu2013] et internationales [@etancelinmulticpu2014][@balaracmultiscale2013], articles [@cottethigh2014], documentation technique.
 * **Certificat de Compétences en Calcul Intensif (C3I)**, Grand Équipement National de Calcul Intensif (GENCI).
 * **Mission complémentaire d'enseignement**: 198h Département Licence Sciences et Technologies, Université Joseph Fourier.
 * Thèse soutenue le 4 décembre 2014.
@@ -51,7 +54,7 @@ Enseignement
 
 08/2012
 :     **Centre d’Été Mathématique de Recherche Avancée en Calcul Scientifique (\mbox{CEMRACS})** (6 semaines)
-:     *Quantification de l'élasticité du cloud en fonction de la variation des demandes modélisées comme un flux  turbulent* [@Etancelin2013c],
+:     *Quantification de l'élasticité du cloud en fonction de la variation des demandes modélisées comme un flux  turbulent* [@etancelinmacroscopic2013],
 :     Cisco Systems France, Issy les Moulineaux et Centre International de Rencontres Mathématiques, Marseille.
 
 2010/2011
@@ -61,7 +64,7 @@ Enseignement
 
 2010
 :     **Stage ingénieur** (5 mois)
-:     *Caractérisation numérique du comportement d'hydroliennes* [@Germain],
+:     *Caractérisation numérique du comportement d'hydroliennes* [@germainvers2010],
 :     Institut Français de Recherche pour l'Exploitation de la MER Boulogne-Sur-Mer et Laboratoire Ondes et Milieux Complexes, Université du Havre.
 
 ## Formation
