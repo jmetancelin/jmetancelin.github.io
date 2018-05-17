@@ -491,3 +491,7 @@ div.ZoneTitreResultat
 /* classe pour l'audience */
 .Audience{
 }
+.ValeurRes img{
+    margin: 0 0 0 0;
+    border: 0;
+}
