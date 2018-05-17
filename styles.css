@@ -434,22 +434,24 @@ div.ZoneTitreResultat
 }
 /* classe pour les rubriques pour certains type de classement (type de publi, annÃ©e de publi) */
 .Rubrique{
-/*	position: relative;*/
-	font-size:x-large;
-	color:#446;
-	letter-spacing:2px;
-	font-weight:bold;
-	background:#CCC;
-	text-align:left;
-	border: solid 1px #558;
-	padding: 3px 0px 2px 10px;
-	margin-top: 5px;
-	margin-bottom: 12px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    color:#232323;
+    margin:24px 0 10px;
+    font-size: 24px;
 }
 .SousRubrique{
-  font-weight:bold;
-	margin-left:10px;
-	font-size:1.3em;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    color:#232323;
+    margin:24px 0 10px;
+    font-size: 18px;
 }
 
 
