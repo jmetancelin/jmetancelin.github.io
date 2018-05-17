@@ -422,9 +422,15 @@ ul.links {
 
 /* classe css de la page*/
 #res_script{
-	border:0;
-	background-color:#FBFAF7;
-	color:#232323;
+    padding:10px 50px 0 0;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #232323;
+    background-color: #FBFAF7;
+    margin: 0;
+    line-height: 1.4em;
+    -webkit-font-smoothing: antialiased;
+    border:0;
 }
 
 /*Titre*/
