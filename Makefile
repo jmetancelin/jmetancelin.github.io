@@ -1,4 +1,3 @@
-
 outdir:=ftpperso
 currentdir:=.
 
@@ -10,7 +9,8 @@ pages_fr=$(patsubst %.md,$(outdir)/%.html,$(src_fr))
 pages_en=$(patsubst %.md,$(outdir)/%.html,$(src_en))
 deps=header.html menu.html menu_fr.html
 
-all: $(outdir) $(pages) JMEtancelin_CV.pdf JMEtancelin_Resume.pdf $(outdir)/JMEtancelin_CV.pdf $(outdir)/JMEtancelin_Resume.pdf $(outdir)/styles.css $(outdir)/images $(outdir)/photo_jm_s.JPG
+all: $(outdir) $(pages) JMEtancelin_CV.pdf JMEtancelin_Resume.pdf $(outdir)/JMEtancelin_CV.pdf $(outdir)/JMEtancelin_Resume.pdf $(outdir)/styles.css
+#$(outdir)/images  $(outdir)/photo_jm_s.JPG
 all_fr: $(outdir) $(pages_fr)
 all_en: $(outdir) $(pages_en)
 
@@ -65,6 +65,9 @@ ifneq ($(outdir), $(currentdir))
 $(outdir)/%.pdf:  %.pdf $(outdir)
 	cp $< $@
 
-$(outdir)/images: $(outdir)
-	cp -r ./images $(outdir)/.
+# $(outdir)/images: $(outdir)
+# 	cp -r ./images $(outdir)/.
+
+$(outdir)/styles.css: $(outdir)
+	cp ./styles.css $(outdir)/.
 endif
