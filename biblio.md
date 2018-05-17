@@ -1,6 +1,4 @@
 # Bibliography
 
-<!-- <object style="width:650px;height:800px;" type="text/html" -->
-<!-- 	data="http://hal.archives-ouvertes.fr/Public/afficheRequetePubli.php?auteur_exp=Jean-Matthieu,Etancelin&CB_auteur=oui&CB_titre=oui&CB_article=oui&langue=English&tri_exp=typdoc&tri_exp2=annee_publi&tri_exp3=date_publi&ordre_aff=TA&Fen=Aff&css=http://jmetancelin.free.fr/myhal.css"></object> -->
 
-<iframe src="https://haltools.archives-ouvertes.fr/Public/afficheRequetePubli.php?idHal=jean-matthieu-etancelin&CB_auteur=oui&CB_titre=oui&CB_article=oui&langue=English&tri_exp2=annee_publi&tri_exp=typdoc&tri_exp3=date_publi&ordre_aff=TA&Fen=Aff" width="100%"height="746px" frameborder="0"></iframe>
+<iframe src="https://haltools.archives-ouvertes.fr/Public/afficheRequetePubli.php?idHal=jean-matthieu-etancelin&amp;CB_auteur=oui&amp;CB_titre=oui&amp;CB_article=oui&amp;langue=English&amp;tri_exp2=annee_publi&amp;tri_exp=typdoc&amp;tri_exp3=date_publi&amp;ordre_aff=TA&amp;Fen=Aff" width="100%" height="746" style="border: none;"></iframe>
