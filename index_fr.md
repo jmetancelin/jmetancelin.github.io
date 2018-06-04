@@ -1,6 +1,6 @@
 % JM Etancelin
 
-# Docteur, Ingénieur
+# Maître de conférences
 
 Depuis 09/2017, je suis Maître de Conférences en Mathématiques à l'Université de Pau et des Pays de l'Adour.
 

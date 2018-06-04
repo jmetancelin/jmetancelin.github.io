@@ -1,6 +1,6 @@
 % JM Etancelin
 
-# PhD, Engineer
+# Assistant professor
 
 Since 09/2017  I am an Assistant Professor at the University of Pau.
 
