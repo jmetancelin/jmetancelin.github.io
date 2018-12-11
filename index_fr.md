@@ -15,7 +15,6 @@ Mots clés:
 - Calcul à haute performance
 - Calcul sur GPU
 - Architectures hybrides
-- Algorithmes éco-efficaces
 - Méthode semi-Lagrangienne d'ordre élevé (méthode particulaire avec remaillage)
 - Schémas volumes finis d'ordre élevé
 - Écoulements turbulents

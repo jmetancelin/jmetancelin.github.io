@@ -15,7 +15,6 @@ Keywords :
 - High performance computing
 - GPU computing
 - Hybrid architectures
-- Energy aware algorithms
 - High order semi-Lagrangian methods (remeshed particle methods)
 - High order finite volumes methods
 - Turbulent fluid dynamics
