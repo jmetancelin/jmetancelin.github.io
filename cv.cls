@@ -33,11 +33,11 @@
 \pagestyle{empty}
 
 \renewcommand\maketitle{%
-  \hspace{-\leftalign}\begin{minipage}[l]{.6\textwidth}
+  \hspace{-\leftalign}\begin{minipage}[l]{.58\textwidth}
     \Huge\@author\par
     \Large\@title\par
   \end{minipage}\hfill
-  \begin{minipage}[r]{.4\textwidth}
+  \begin{minipage}[r]{.5\textwidth}
     \raggedleft
     \@date
   \end{minipage}\par\vspace{1.3cm}}

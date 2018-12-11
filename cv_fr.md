@@ -3,7 +3,7 @@
 
 ## Situation actuelle
 
-Maitre de Conférences en Mathématiques
+MCF en Mathématiques
 :    Université de Pau et des Pays de l'Adour, Laboratoire de Mathématiques et leurs Applications
 
 Enseignement
@@ -107,14 +107,14 @@ Programmation
 :    Python, C/C++, Fortran, Shell Unix/Linux.
 
 Outils
-:    Jupyter, TAU, Git, ParaView, HDF5, Gnuplot, SVN, \LaTeX.
+:    Jupyter, TAU, Scalasca, Git, ParaView, HDF5, Gnuplot, SVN, \LaTeX.
 
 Langues
 :    Anglais: courant (TOEIC: 830/990, 2010)
 
 ## Responsabilités collectives
 
-Depuis 01/2015
+2015--2017
 :     Participation aux activités de la Maison de la Simulation de
 Champagne-Ardenne
 

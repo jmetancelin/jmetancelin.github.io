@@ -102,7 +102,7 @@ Programming
 :    Python, C/C++, Fortran, Shell Unix
 
 Tools
-:    Jupyter, TAU, git, svn, ParaView, HDF5, Gnuplot, \LaTeX
+:    Jupyter, TAU, Scalasca, git, svn, ParaView, HDF5, Gnuplot, \LaTeX
 
 Languages
 :    French: native, English: fluent (TOEIC: 830/990, 2010)
@@ -110,7 +110,7 @@ Languages
 
 ## Collective responsibilities
 
-Since 01/2015
+2015--2017
 :     Animating activities of the Maison de la Simulation de
   Champagne-Ardenne. Participating in the organization of ROMEO annual scientific day
 
