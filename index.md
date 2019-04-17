@@ -22,9 +22,13 @@ Keywords :
 
 ## Teaching
 
-### 2017/2018 (University of Pau)
+### Since 2017/2018 (University of Pau)
 
-- High performance computing (M2)
+- High performance computing (M2) : Parallel computing, MPI, OpenMP
+- Numerical simulation (M1) : Finite differences and finite elements programming
+- Scientific computing (L2) : Lagrange interpolation, numerical integration, linear system solvers, zeros finding, ODE integration
+- Euclidian space (L2)
+- Methodological tools for mathematics (L1)
 
 ### Trainings for researchers, industrials and PhD students
 

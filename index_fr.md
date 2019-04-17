@@ -21,9 +21,16 @@ Mots clés:
 
 ## Enseignement
 
-### 2017/2018 (Université de Pau et des Pays de l'Adour)
+### Depuis 2017/2018 (Université de Pau et des Pays de l'Adour)
 
-- Calcul à haute performance (M2)
+- Calcul à haute performance (M2) : calcul parallèle, MPI, OpenMP
+- Simulation numérique (M1) : Implémentation de méthodes de différences finies, d'éléments finis
+- Calcul scientifique (L2) : interpolation de Lagrange, intégration
+  numérique, résolution de systèmes linéaires, recherche de zéros,
+  résolution d'EDO
+- Esapces Euclidiens (L2)
+- Outils méthodologiques pour les mathématiques (L1)
+
 
 ### Formations pour un public de chercheurs, industriels et doctorants
 
