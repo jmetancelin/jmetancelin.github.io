@@ -3,7 +3,7 @@
 
 ## Current position
 
-Assistant professor
+Associate professor
 :    University of Pau, Mathematics and their applications lab.
 
 Teaching

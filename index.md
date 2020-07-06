@@ -1,8 +1,8 @@
 % JM Etancelin
 
-# Assistant professor
+# Associate professor
 
-Since 09/2017  I am an Assistant Professor at the University of Pau.
+Since 09/2017  I am an Associate Professor at the University of Pau.
 
 Between 01/2015 and 08/2017, I was a research engineer at [Champagne-Ardenne HPC Center ROMEO](https://romeo.univ-reims.fr/) at the [University of Reims Champagne-Ardenne](http://www.univ-reims.eu/). I am involved in a NVIDIA GPU Application Lab in which we help users to benefit from the GPU powered cluster ROMEO. Beside code porting, optimization on GPU and scaling up to hundreds of GPUs, I am interested in algorithms and methods adaptation to heterogeneous architectures. I am involved in several projects from different domains of application such as Computational Fluid Dynamics, Computational Chemistry, Applied Mathematics and Computer Science.
 
