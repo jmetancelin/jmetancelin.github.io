@@ -7,7 +7,7 @@ src_en=$(filter-out $(src_fr),$(src))
 pages=$(patsubst %.md,$(outdir)/%.html,$(src))
 pages_fr=$(patsubst %.md,$(outdir)/%.html,$(src_fr))
 pages_en=$(patsubst %.md,$(outdir)/%.html,$(src_en))
-deps=header.html menu.html menu_fr.html
+deps=menu.html menu_fr.html
 
 all: $(outdir) $(pages) JMEtancelin_CV.pdf JMEtancelin_Resume.pdf $(outdir)/JMEtancelin_CV.pdf $(outdir)/JMEtancelin_Resume.pdf $(outdir)/styles.css
 #$(outdir)/images  $(outdir)/photo_jm_s.JPG
@@ -17,17 +17,17 @@ all_en: $(outdir) $(pages_en)
 $(outdir):
 	mkdir -p $@
 
-%_fr.footer: footer.html
-	sed 's/FILEFR/$(subst .footer,.html,$@)/;s/FILEEN/$(subst _fr.footer,.html,$@)/' footer.html > $@
+%_fr_left.html: menu_fr.html
+	@sed 's/FILEFR/$(subst _fr_left,_fr,$@)/;s/FILEEN/$(subst _fr_left,,$@)/'  $< > $@
+%_left.html: menu.html
+	@sed 's/FILEFR/$(subst _left,_fr,$@)/;s/FILEEN/$(subst _left,,$@)/'  $< > $@
 
-%.footer: footer.html
-	sed 's/FILEFR/$(subst .footer,_fr.html,$@)/;s/FILEEN/$(subst .footer,.html,$@)/' footer.html > $@
+$(outdir)/%.html: %.md %_left.html $(deps)
+	sed 's/\[@[a-zA-Z0-9]*\]//g' $< | pandoc -s -o $@ --css='styles.css' --metadata title="JM Etancelin" -B $(word 2,$^) -A end.html
+	@sed -i.orig 's/a href="http/a target="_blank" href="http/g' $@
+	@rm -f $@.orig *_left.html
 
-$(outdir)/%.html: %.md %.footer $(deps)
-	sed 's/\[@[a-zA-Z0-9]*\]//g' $< | pandoc -s -o $@ -H header.html -B `echo '$@' | sed -E 's/(.*\/)?[a-zA-Z0-9]*(.|_fr.)html/menu\2html/'` -A $(word 2,$^) -V highlighting-css=".title {display: none;} "
-	sed -i.orig 's/a href="http/a target="_blank" href="http/g' $@
-	sed -i.orig 's/a target="_blank" href="http:\/\/jmetancelin.free.fr/a href="http:\/\/jmetancelin.free.fr/g' $@
-	rm $@.orig
+
 
 clean:
 	rm -f $(pages) JMEtancelin_CV.pdf JMEtancelin_Resume.pdf JMEtancelin_CV.tex JMEtancelin_Resume.tex *.bbl *blx.bib index.html index_fr.html

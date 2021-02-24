@@ -4,7 +4,7 @@ Since 09/2017  I am an Associate Professor in Applied Mathematics at the Univers
 
 <!-- Between 01/2015 and 08/2017, I was a research engineer at [Champagne-Ardenne HPC Center ROMEO](https://romeo.univ-reims.fr/) at the [University of Reims Champagne-Ardenne](http://www.univ-reims.eu/). I am involved in a NVIDIA GPU Application Lab in which we help users to benefit from the GPU powered cluster ROMEO. Beside code porting, optimization on GPU and scaling up to hundreds of GPUs, I am interested in algorithms and methods adaptation to heterogeneous architectures. I am involved in several projects from different domains of application such as Computational Fluid Dynamics, Computational Chemistry, Applied Mathematics and Computer Science. -->
 
-## <a href="research.html">Research</a>
+## Research
 
 I am interested in the design and the implementation of high performance algorithms and numerical methods. Heterogeneous parallelism is mandatory and needs to be taken into account not only on the algorighm level but also on the numerical method itself.
 

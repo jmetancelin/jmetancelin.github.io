@@ -4,7 +4,7 @@ Depuis 09/2017, je suis Maître de Conférences en Mathématiques Appliquées à
 
 <!-- Entre 01/2015 et 08/2017, j'étais ingénieur de recherche au [Centre de Calcul de Champagne-Ardenne ROMEO](https://romeo.univ-reims.fr/) à l'[Université de Reims Champagne-Ardenne](http://www.univ-reims.fr/). Au sein du Laboratoire d'Applications GPU (NVIDIA GPU Application Lab), mon rôle consistait à apporter une expertise auprès des utilisateurs pour exploiter les GPU du calculateur hybride ROMEO. En collaboration avec ces utilisateurs, je réalisait des opérations de portage de code sur GPU ainsi que de passage à l'échelle et d'optimisation sur plusieurs centaines de GPU. De manière plus générale, je me suis intéressé aux problématiques liées à l'adaptation des algorithmes et des méthodes numériques aux architectures hétérogènes. Dans ce contexte, j'ai participé à plusieurs projets dans différents domaines d'applications comme la mécanique des fluides, la chimie théorique, les mathématiques appliquées et l'informatique. -->
 
-## <a href="research_fr.html">Recherche</a>
+## Recherche
 
 Je m'intéresse à l'élaboration et à l'implémentation d'algorithmes et de méthodes à haute performances numériques. Dans ce contexte, il est primordial de prendre en compte les spécificités de la programmation parallèle hétérogène non seulement au niveau des algorithmes mais aussi au niveau des méthodes numériques elles-mêmes.
 

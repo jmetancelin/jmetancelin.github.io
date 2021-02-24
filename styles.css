@@ -1,23 +1,23 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    vertical-align: baseline;
+* {
+  box-sizing: border-box;
 }
 
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+header {
+    display:none;
+}
+.title {
+    display:none;
+}
+
+
+
+/* Column container */
 body {
     padding:10px 50px 0 0;
     font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -26,8 +26,53 @@ body {
     background-color: #FBFAF7;
     margin: 0;
     line-height: 1.4em;
-    -webkit-font-smoothing: antialiased;
+    display: flex;
+    flex-wrap: wrap;
 }
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+    height: 100%;
+    flex: 30%;
+    padding: 20px;
+    padding-right: 4px;
+    padding-top:10px;
+    padding-bottom:30px;
+    border-right:1px solid rgb(102, 102, 102);
+    text-align:right;
+}
+/* Main column */
+.main {
+  flex: 70%;
+  padding: 20px;
+    border-left:1px solid rgb(102, 102, 102);
+}
+
+@media (min-width: 1300px) {
+    .side {flex:390px;}
+.main {
+    flex: calc(100% - 390px);
+}
+}
+@media (max-width: 700px) {
+  body {
+    flex-direction: column;
+  }
+.side {
+    height: 100%;
+    flex: 30%;
+    padding: 20px;
+    padding-right: 4px;
+    padding-top:10px;
+    padding-bottom:30px;
+    border-right:0px ;
+    text-align:left;
+}
+}
+
+
+
 
 h1, h2, h3, h4, h5, h6 {
     color:#232323;
@@ -56,7 +101,6 @@ h4, h5, h6 {
     /* font-family: Arvo, Monaco, serif; */
     font-weight: 700;
 }
-
 p {
     padding-bottom:4px;
 }
@@ -93,37 +137,6 @@ ol {
     list-style: decimal;
     padding-left: 25px;
 }
-
-blockquote {
-    margin: 0;
-    padding: 0 0 0 20px;
-    font-style: italic;
-}
-
-dl, dt, dd, dl p {
-    font-color: #444;
-}
-
-dl dt {
-    font-weight: bold;
-}
-
-dl dd {
-    padding-left: 20px;
-    font-style: italic;
-}
-
-dl p {
-    padding-left: 20px;
-    font-style: italic;
-}
-
-hr {
-    border:0;
-    background:#ccc;
-    height:1px;
-    margin:0 0 24px;
-}
 /* Images */
 img {
     position: relative;
@@ -143,112 +156,10 @@ p img {
     border: none;
 }
 
-header img {
+.header img {
     border:none;
 }
-
-/* Code blocks */
-
-code, pre {
-    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-    color:#000;
-    font-size:14px;
-}
-
-pre {
-    padding: 4px 12px;
-    background: #FDFEFB;
-    border-radius:4px;
-    border:1px solid #D7D8C8;
-    overflow: auto;
-    overflow-y: hidden;
-    margin-bottom: 32px;
-}
-
-/* Tables */
-
-table {
-    width:100%;
-}
-
-table {
-    border: 1px solid #ccc;
-    margin-bottom: 32px;
-    text-align: left;
-}
-
-th {
-    font-size: 18px;
-    font-weight: normal;
-    padding: 10px;
-    background: #232323;
-    color: #FDFEFB;
-}
-
-td {
-    padding: 10px;
-    background: #ccc;
-}
-
-/* Wrapper */
-.wrapper {
-    width:960px;
-}
-
-/* Header */
-header {
-    float: left;
-    position:fixed;
-    width:300px;
-    height:100%;
-    padding-right: 4px;
-    padding-top:10px;
-    padding-bottom:30px;
-    border-right:1px solid rgb(102, 102, 102);
-    text-align:right;
-    top:0;
-}
-p.header {
-    font-size: 16px;
-}
-header a{
-    color: #232323;
-}
-
-h1.header {
-    font-size: 26px;
-    font-weight: 400;
-    line-height: 1.3em;
-    margin-top: 0;
-    border-bottom: none;
-}
-
-.navigation h2 , .navigation h3{
-    border-bottom: none;
-    padding-bottom:0px;
-    margin:0 0 0 0;
-}
-.navigation h2 {
-    margin-top:10px;
-    font-size: 20px;
-    font-weight: 400;
-}
-
-.navigation h3 {
-    margin-top:6px;
-    font-size: 16px;
-    font-weight: 200;
-}
-
-a.header {
-    text-decoration: underline;
-}
-
-a.name {
-    white-space: nowrap;
-}
-
-header ul {
+.header ul {
     list-style:none;
     padding-left:10px;
 }
@@ -273,231 +184,11 @@ ul.links a {
 ul.links {
     padding: 0 0 0 0;
     width:90px;                 /*2*(35+10)*/
-    margin-left:210px; 		/*300 - 2*(35+10)*/
+    margin-left:calc(100% - 90px); 		/*300 - 2*(35+10)*/
     -webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
     column-count: 2;
     -webkit-column-gap: 10px;
     -moz-column-gap: 10px;
     column-gap: 10px;
-}
-
-
-.cv ul {
-    list-style:none;
-}
-
-/* Section - for main page content */
-
-section {
-    width:650px;
-    float:right;
-    padding-bottom:50px;
-}
-
-
-/* Footer */
-
-footer {
-    width:300px;
-    float:left;
-    position:fixed;
-    bottom:10px;
-    padding-right: 4px;
-    text-align:right;
-}
-
-
-
-
-@media print, screen and (max-width: 960px) {
-
-    div.wrapper {
-	width:auto;
-	margin:0;
-    }
-
-    header, section, footer {
-	float:none;
-	position:static;
-	width:auto;
-    }
-
-    section {
-    	padding:0px 50px 10px 40px;
-    	margin:0 0 30px;
-    }
-    footer {
-	border-top: 1px solid #ccc;
-	margin:0 50px 0 50px;
-	padding:0;
-    }
-
-    header {
-	padding:20px 84px 0px 50px;
-	text-align:left;
-	position:relative;
-	border:none;
-    }
-    header p img {
-    	/* display:none; */
-    	/* float:right; */
-	position:absolute;
-	right:84px;
-    }
-    .header_content {
-    	-webkit-column-count: 2; /* Chrome, Safari, Opera */
-    	-moz-column-count: 2; /* Firefox */
-    	column-count: 2;
-    }
-    .header_content div {
-    	margin-bottom: 1.3em;
-    	-webkit-column-break-inside: avoid;
-    	page-break-inside: avoid;
-    	break-inside: avoid;
-    }
-ul.links {
-    margin-left:0px;
-    padding-left:10px;
-}
-.navigation {
-    padding-top:220px;
-}
-.navigation li{
-    text-align:right;
-}
-
-}
-
-@media print, screen and (max-width: 720px) {
-    body {
-	word-wrap:break-word;
-    }
-
-    header {
-	padding:10px 20px 0;
-	margin-right: 0;
-    }
-
-    section {
-	padding:10px 0 10px 20px;
-	margin:0 0 30px;
-    }
-
-    footer {
-	margin: 0 0 0 30px;
-    }
-
-    header ul, header p.view {
-	position:static;
-    }
-}
-
-@media print, screen and (max-width: 480px) {
-
-
-    header {
-	-webkit-column-count: 1; /* Chrome, Safari, Opera */
-	-moz-column-count: 1; /* Firefox */
-	column-count: 1;
-    }
-
-    ul.links {
-	width:180px;
-	float:none;
-	padding-left:10px;
-	margin-left:0px;
-    }
-    footer {
-	margin: 0 0 0 20px;
-    }
-
-    footer a{
-	display:block;
-    }
-
-}
-
-/* Formattage HAL*/
-
-/* classe css de la page*/
-#res_script{
-    padding:10px 50px 0 0;
-    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    color: #232323;
-    background-color: #FBFAF7;
-    margin: 0;
-    line-height: 1.4em;
-    -webkit-font-smoothing: antialiased;
-    border:0;
-}
-
-/*Titre*/
-div.ZoneTitreResultat
-{
-	display:none;
-}
-/* classe pour les rubriques pour certains type de classement (type de publi, annÃ©e de publi) */
-.Rubrique{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    vertical-align: baseline;
-    color:#232323;
-    margin:24px 0 10px;
-    font-size: 24px;
-}
-.SousRubrique{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font: inherit;
-    vertical-align: baseline;
-    color:#232323;
-    margin:24px 0 10px;
-    font-size: 18px;
-}
-
-
-/*nom du champ*/
-.ChampRes {
-	display:none;
-}
-
-/* classe commune Ã  tous les champs affichÃ©s */
-.ValeurRes {
-	color:black;
-  margin-left:1em;
-}
-/* classe pour les auteurs */
-.Auteurs {
-}
-/* classe pour les titres */
-.Titre, .Titre a {
-   font-weight:bold;
-	color:#58529F;
-}
-/* classe pour les identifiants */
-.Identifiant {
-}
-/* classe des dÃ©tails de publication : une classe par type */
-.detail_revue,.detail_conf,.detail_cours,.detail_ouv,.detail_hdr,.detail_these,.detail_autre,.detail_brevet,.detail_rapport,.detail_sans_ref{
-}
-/* classe pour les doi */
-.DOI{
-}
-/* classe pour les rÃ©sumÃ©s */
-.Debut_du_resume{
-}
-/* classe pour le type de document */
-.Type_de_document{
-}
-/* classe pour l'audience */
-.Audience{
-}
-.ValeurRes img{
-    margin: 0 0 0 0;
-    border: 0;
 }
