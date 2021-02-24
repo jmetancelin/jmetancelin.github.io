@@ -38,7 +38,7 @@ Teaching
 
 * **Title**: Model coupling, multiscale algorithms and hybrid computing
 * **Place**: Laboratoire Jean Kuntzmann, Université Joseph Fourier, Grenoble
-* **Supervisors**: G.-H. Cottet et C. Picard
+* **Supervisors**: G.-H. Cottet and C. Picard
 * **Research**: Analysis and extension of a remeshed  paricle method, multiscale algorithms implementation on GPU, multi-CPU/multi-GPU hybrid computations on regional and local clusters, applications to turbulent flows simulation.
 * **Communication**: National [@cottetgpu2013] and international conferences [@etancelinmulticpu2014][@balaracmultiscale2013], peer reviewed articles [@cottethigh2014], user and developper technical report.
 * **C3I certification:** HPC certification, GENCI.
@@ -109,6 +109,10 @@ Languages
 
 
 ## Collective responsibilities
+
+Since 2018
+:     In charge of pedagogic organization of L1-MIASHS, UPPA
+      (Mathematics and Computer Science applied to Human and Social Sciences)
 
 2015--2017
 :     Animating activities of the Maison de la Simulation de

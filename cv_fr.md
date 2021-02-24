@@ -114,6 +114,10 @@ Langues
 
 ## Responsabilités collectives
 
+Depuis 2018
+:     Responsable pédagogique de la L1-MIASHS, UPPA (Licence de
+      Mathématique et Informatique appliquée aux Sciences Humaines et Sociales)
+
 2015--2017
 :     Participation aux activités de la Maison de la Simulation de
 Champagne-Ardenne

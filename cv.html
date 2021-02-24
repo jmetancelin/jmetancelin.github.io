@@ -1,14 +1,153 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
-  <title></title>
-  <style type="text/css">code{white-space: pre;}</style>
-  <style type="text/css">
-.title {display: none;}
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>-</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .title {display: none;} 
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
   
       <link rel="icon" type="image/x-icon" href="http://jmetancelin.free.fr/jme.ico">
       <link rel="stylesheet" href="styles.css">
@@ -58,20 +197,25 @@
 	<!-- </ul></br> -->
 	<ul class="links">
 	  <!-- <li><a href="" alt="" /><img src="" alt="" /></a></li> -->
-	  <li><a target="_blank" href="https://fr.linkedin.com/in/jean-matthieu-etancelin-2143646a" alt="Linkedin" /><img src="http://jmetancelin.free.fr/images/linkedin.png" alt="Linkedin" /></a></li>
-<li><a target="_blank" href="https://www.researchgate.net/profile/Jean_Matthieu_Etancelin" alt="ResearchGate" /><img src="http://jmetancelin.free.fr/images/rg.png" alt="ResearchGate" /></a></li>
-<li><a target="_blank" href="https://scholar.google.fr/citations?user=Fruy5sUAAAAJ&hl=fr" alt="GoogleScholar" /><img src="http://jmetancelin.free.fr/images/gs.png" alt="GoogleScholar" /></a></li>
-<li><a target="_blank" href="https://github.com/jmetancelin"><img src="http://jmetancelin.free.fr/images/github.png" alt="GitHub" /></a></li>
+	  <!-- <li><a target="_blank" href="https://fr.linkedin.com/in/jean-matthieu-etancelin-2143646a" alt="Linkedin" />
+               <img src="http://jmetancelin.free.fr/images/linkedin.png" alt="Linkedin" /></a></li> -->
+          <!-- <li><a target="_blank" href="https://www.researchgate.net/profile/Jean_Matthieu_Etancelin" alt="ResearchGate" />
+               <img src="http://jmetancelin.free.fr/images/rg.png" alt="ResearchGate" /></a></li> -->
+          <li><a target="_blank" href="https://scholar.google.fr/citations?user=Fruy5sUAAAAJ&hl=fr" alt="GoogleScholar" />
+            <img src="http://jmetancelin.free.fr/images/gs.png" alt="GoogleScholar" /></a></li>
+          <li><a target="_blank" href="https://github.com/jmetancelin">
+              <img src="http://jmetancelin.free.fr/images/github.png" alt="GitHub" /></a></li>
 </ul>
 </div>
 <div class="navigation">
   <ul>
     <!-- <li><h2><a href="index.html">Accueil</a></h2></li> -->
-    <li><h2><a href="research.html">Research</a></h2></li>
-    <li><h3><a href="biblio.html">Bibliography</a></h3></li>
-    <li><h3><a href="gallery.html">Gallery</a></h3></li>
-    <li><h2>Resources</h2></li>
-    <li><h3><a href="cv.html">Résumé</a> (<a href="http://jmetancelin.free.fr/JMEtancelin_Resume.pdf">pdf</a>)</h3></li>
+    <li><h2><a href="research.html"> Research > </a></h2></li>
+    <li><h2><a href="biblio.html"> Bibliography > </a></h2></li>
+    <li><h2><a href="ens.html"> Teaching > </a></h2></li>
+    <!-- <li><h3><a href="gallery.html">Gallery</a></h3></li> -->
+    <!-- <li><h2>Resources</h2></li> -->
+    <!-- <li><h3><a href="cv.html">Résumé</a> (<a href="http://jmetancelin.free.fr/JMEtancelin_Resume.pdf">pdf</a>)</h3></li> -->
   </ul>
 </div>
 </div>
@@ -82,7 +226,7 @@
 
 <h2 id="current-position">Current position</h2>
 <dl>
-<dt>Assistant professor</dt>
+<dt>Associate professor</dt>
 <dd>University of Pau, Mathematics and their applications lab.
 </dd>
 <dt>Teaching</dt>
@@ -91,7 +235,7 @@
 </dl>
 <h2 id="experiences">Experiences</h2>
 <dl>
-<dt>01/2015 -- 08/2017</dt>
+<dt>01/2015 – 08/2017</dt>
 <dd><strong>Research engineer, expert in GPU technlogies</strong>, ROMEO HPC Center of Reims, CReSTIC, URCA
 </dd>
 </dl>
@@ -99,7 +243,7 @@
 <li><strong>GPU Application Lab</strong>: Expertise in porting and optimisation of GPU accelerated codes for users.</li>
 <li><strong>Technology watch</strong>: Specific libraries, softwares and tools for exploiting heterogeneous clusters.</li>
 <li><strong>Communication</strong>: courses in GPU technologies and hybrid computing to users and students. Development of a web-based HPC teaching platform . Contributing to scientific communications .</li>
-<li><strong>Teaching</strong>: 86h in Master's degree in Computer Science, URCA</li>
+<li><strong>Teaching</strong>: 86h in Master’s degree in Computer Science, URCA</li>
 <li><strong>Collaborations</strong>:
 <ul>
 <li>ONERA : Optimisation and upscaling of a multi-GPU high order finite volumes research code based on a LES method for realistic aerodynamic profiles ,</li>
@@ -115,16 +259,16 @@
 </dd>
 <dd><em>Deeplearning challenge for pollinating insects images using GPUs</em>
 </dd>
-<dd>Laboratoire de l'Accélérateur Linéaire, University of Paris South and Musée National d'Histoire Naturelle
+<dd>Laboratoire de l’Accélérateur Linéaire, University of Paris South and Musée National d’Histoire Naturelle
 </dd>
-<dt>10/2011 -- 12/2014</dt>
+<dt>10/2011 – 12/2014</dt>
 <dd><strong>PhD in Applied Mathematics</strong>:
 </dd>
 </dl>
 <ul>
 <li><strong>Title</strong>: Model coupling, multiscale algorithms and hybrid computing</li>
 <li><strong>Place</strong>: Laboratoire Jean Kuntzmann, Université Joseph Fourier, Grenoble</li>
-<li><strong>Supervisors</strong>: G.-H. Cottet et C. Picard</li>
+<li><strong>Supervisors</strong>: G.-H. Cottet and C. Picard</li>
 <li><strong>Research</strong>: Analysis and extension of a remeshed paricle method, multiscale algorithms implementation on GPU, multi-CPU/multi-GPU hybrid computations on regional and local clusters, applications to turbulent flows simulation.</li>
 <li><strong>Communication</strong>: National and international conferences , peer reviewed articles , user and developper technical report.</li>
 <li><strong>C3I certification:</strong> HPC certification, GENCI.</li>
@@ -133,33 +277,33 @@
 </ul>
 <dl>
 <dt>03/2013</dt>
-<dd><strong>Semaine d'Étude Mathématiques et Entreprises</strong>, Laboratoire Jean Kuntzmann, Grenoble
+<dd><strong>Semaine d’Étude Mathématiques et Entreprises</strong>, Laboratoire Jean Kuntzmann, Grenoble
 </dd>
 <dd>Exploring an industrial problem by PhD students and graduate.
 </dd>
 <dd>Kolor project: <em>Sparce modelig of colors transfert functions with Bezier curves</em>.
 </dd>
-<dt>07/2012 -- 08/2012</dt>
+<dt>07/2012 – 08/2012</dt>
 <dd><strong>Centre d’Eté Mathématique de Recherche Avancée en Calcul Scientifique (CEMRACS)</strong>, Centre International de Rencontres Mathématiques, Marseille
 </dd>
 <dd>Industrial research projetct in an academic context.
 </dd>
 <dd>Cisco project: <em>Cloud computing elasticity as a query transport</em>. Numerical simulation of the behavior of a virtual machines set based on a finite volume scheme to automate cloud elasticity .
 </dd>
-<dt>10/2010 -- 06/2011</dt>
+<dt>10/2010 – 06/2011</dt>
 <dd><strong>Research intenship</strong>: <em>Evaliating of stretching term various formulations in 3D Vortex Blob method and applications to crossflow jets and vorticity rings</em>, Laboratoire Ondes et Milieux Complexes (LOMC), Université du Havre
 </dd>
 <dd>Numerical simulation of crossflow jet. Study of numerical instabilities on vorticity rings.
 </dd>
-<dt>06/2010 -- 10/2010</dt>
-<dd><strong>Stage ingénieur</strong>: Numerical caracterisation of marine current turbines, Institut Francais de Recherche pour l'Exploitation de la MER (IFREMER), Boulogne-Sur-Mer et LOMC, Université du Havre
+<dt>06/2010 – 10/2010</dt>
+<dd><strong>Stage ingénieur</strong>: Numerical caracterisation of marine current turbines, Institut Francais de Recherche pour l’Exploitation de la MER (IFREMER), Boulogne-Sur-Mer et LOMC, Université du Havre
 </dd>
 <dd>Numerical simulations of turbulent flow interacting with marine current turbine .
 </dd>
 </dl>
 <h2 id="education">Education</h2>
 <dl>
-<dt>10/2011 -- 12/2014</dt>
+<dt>10/2011 – 12/2014</dt>
 <dd><strong>PhD in Applied Mathematics</strong>:
 </dd>
 </dl>
@@ -176,7 +320,7 @@
 <li>Georges-Henri Cottet, PR, Université Joseph Fourier</li>
 <li>Alexis Herault, MCF, Conservatoire National des Arts et Métiers</li>
 <li>Christophe Picard MCF, Grenoble INP</li>
-<li>Christophe Prud'homme, PR, Université de Strasbourg</li>
+<li>Christophe Prud’homme, PR, Université de Strasbourg</li>
 <li>Jean-Baptiste Lagaert, MCF, Université Paris-Sud</li>
 </ul></li>
 <li><strong>Funding</strong>: French ANR Project HAMM (ANR-10-COSI-0009)</li>
@@ -210,10 +354,13 @@
 </dl>
 <h2 id="collective-responsibilities">Collective responsibilities</h2>
 <dl>
-<dt>2015--2017</dt>
+<dt>Since 2018</dt>
+<dd>In charge of pedagogic organization of L1-MIASHS, UPPA (Mathematics and Computer Science applied to Human and Social Sciences)
+</dd>
+<dt>2015–2017</dt>
 <dd>Animating activities of the Maison de la Simulation de Champagne-Ardenne. Participating in the organization of ROMEO annual scientific day
 </dd>
-<dt>2012--2014</dt>
+<dt>2012–2014</dt>
 <dd>Represent PhD student for IT laboratory managment
 </dd>
 <dt>10/2012</dt>
@@ -226,6 +373,8 @@
 </ul>
   </section>
       <footer>
+	←  <a href="index_fr.html">Accueil</a> / <a href="index.html">Home Page</a>
+                                   </br>
 	<a href="cv_fr.html">fr</a>/<a href="cv.html">en</a>
       </footer>
     </div>

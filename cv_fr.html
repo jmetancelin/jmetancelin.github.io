@@ -1,14 +1,153 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
-  <title></title>
-  <style type="text/css">code{white-space: pre;}</style>
-  <style type="text/css">
-.title {display: none;}
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>-</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .title {display: none;} 
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
   
       <link rel="icon" type="image/x-icon" href="http://jmetancelin.free.fr/jme.ico">
       <link rel="stylesheet" href="styles.css">
@@ -58,20 +197,25 @@
 	<!-- </ul></br> -->
 	<ul class="links">
 	  <!-- <li><a href="" alt="" /><img src="" alt="" /></a></li> -->
-	  <li><a target="_blank" href="https://fr.linkedin.com/in/jean-matthieu-etancelin-2143646a" alt="Linkedin" /><img src="http://jmetancelin.free.fr/images/linkedin.png" alt="Linkedin" /></a></li>
-<li><a target="_blank" href="https://www.researchgate.net/profile/Jean_Matthieu_Etancelin" alt="ResearchGate" /><img src="http://jmetancelin.free.fr/images/rg.png" alt="ResearchGate" /></a></li>
-<li><a target="_blank" href="https://scholar.google.fr/citations?user=Fruy5sUAAAAJ&hl=fr" alt="GoogleScholar" /><img src="http://jmetancelin.free.fr/images/gs.png" alt="GoogleScholar" /></a></li>
-<li><a target="_blank" href="https://github.com/jmetancelin"><img src="http://jmetancelin.free.fr/images/github.png" alt="GitHub" /></a></li>
-</ul>
+	  <!--  <li><a target="_blank" href="https://fr.linkedin.com/in/jean-matthieu-etancelin-2143646a" alt="Linkedin" />
+                <img src="http://jmetancelin.free.fr/images/linkedin.png" alt="Linkedin" /></a></li> -->
+          <!-- <li><a target="_blank" href="https://www.researchgate.net/profile/Jean_Matthieu_Etancelin" alt="ResearchGate" />
+               <img src="http://jmetancelin.free.fr/images/rg.png" alt="ResearchGate" /></a></li> -->
+          <li><a target="_blank" href="https://scholar.google.fr/citations?user=Fruy5sUAAAAJ&hl=fr" alt="GoogleScholar" />
+            <img src="http://jmetancelin.free.fr/images/gs.png" alt="GoogleScholar" /></a></li>
+          <li><a target="_blank" href="https://github.com/jmetancelin">
+              <img src="http://jmetancelin.free.fr/images/github.png" alt="GitHub" /></a></li>
+       </ul>
 </div>
 <div class="navigation">
   <ul>
     <!-- <li><h2><a href="index_fr.html">Accueil</a></h2></li> -->
-    <li><h2><a href="research_fr.html">Recherche</a></h2></li>
-    <li><h3><a href="biblio_fr.html">Publications</a></h3></li>
-    <li><h3><a href="gallery_fr.html">Applications</a></h3></li>
-    <li><h2>Ressources</h2></li>
-    <li><h3><a href="cv_fr.html">CV</a> (<a href="http://jmetancelin.free.fr/JMEtancelin_CV.pdf">pdf</a>)</h3></li>
+    <li><h2><a href="research_fr.html"> Recherche > </a></h2></li>
+    <li><h2><a href="biblio_fr.html"> Bibliographie > </a></h2></li>
+    <li><h2><a href="ens_fr.html"> Enseignements > </a></h2></li>
+    <!-- <li><h3><a href="gallery_fr.html">Applications</a></h3></li> -->
+    <!-- <li><h2>Ressources</h2></li> -->
+    <!-- <li><h3><a href="cv_fr.html">CV</a> (<a href="http://jmetancelin.free.fr/JMEtancelin_CV.pdf">pdf</a>)</h3></li> -->
   </ul>
 </div>
 </div>
@@ -81,7 +225,7 @@
 <h2 id="situation-actuelle">Situation actuelle</h2>
 <dl>
 <dt>MCF en Mathématiques</dt>
-<dd>Université de Pau et des Pays de l'Adour, Laboratoire de Mathématiques et leurs Applications
+<dd>Université de Pau et des Pays de l’Adour, Laboratoire de Mathématiques et leurs Applications
 </dd>
 <dt>Enseignement</dt>
 <dd>Math, Math Appliquées et HPC en Licence et Master, UPPA
@@ -89,22 +233,22 @@
 </dl>
 <h2 id="expériences">Expériences</h2>
 <dl>
-<dt>01/2015 -- 08/2017</dt>
+<dt>01/2015 – 08/2017</dt>
 <dd><strong>Ingénieur de recherche, expert en technologies GPU</strong>, Centre de calcul de Champagne-Ardenne ROMEO, CReSTIC, URCA, Reims.
 </dd>
 </dl>
 <ul>
-<li><strong>Laboratoire d'applications GPU (NVIDIA)</strong>: Expertise auprès des utilisateurs pour le portage, l'optimisation et le passage à l'échelle de codes de calculs sur GPU.</li>
-<li><strong>Veille technologique</strong>: Mise en œuvre de librairies, d'outils et de logiciels spécifiques à l'exploitation du calculateur hybride ROMEO.</li>
-<li><strong>Communication</strong>: Formations en technologies de calcul sur GPU et en calcul hybride auprès des utilisateurs et étudiants. Développement d'une plateforme web d'enseignement en HPC . Production de communications scientifiques .</li>
+<li><strong>Laboratoire d’applications GPU (NVIDIA)</strong>: Expertise auprès des utilisateurs pour le portage, l’optimisation et le passage à l’échelle de codes de calculs sur GPU.</li>
+<li><strong>Veille technologique</strong>: Mise en œuvre de librairies, d’outils et de logiciels spécifiques à l’exploitation du calculateur hybride ROMEO.</li>
+<li><strong>Communication</strong>: Formations en technologies de calcul sur GPU et en calcul hybride auprès des utilisateurs et étudiants. Développement d’une plateforme web d’enseignement en HPC . Production de communications scientifiques .</li>
 <li><strong>Vacations</strong>: 86h en Master 2 Informatique, URCA.</li>
 <li><strong>Collaborations</strong>:
 <ul>
-<li>ONERA : Optimisation et passage à l'échelle d'un code de recherche volumes finis d'ordre élevé multi-GPU pour la simulation de profils aérodynamiques en conditions réalistes ,</li>
-<li>ICMR (Université de Reims) et ATOS : Optimisation d'un code GPU d'étude de systèmes moléculaires basé sur l'étude d'interactions non covalentes, en vue d'une utilisation par un algorithme génétique ,</li>
+<li>ONERA : Optimisation et passage à l’échelle d’un code de recherche volumes finis d’ordre élevé multi-GPU pour la simulation de profils aérodynamiques en conditions réalistes ,</li>
+<li>ICMR (Université de Reims) et ATOS : Optimisation d’un code GPU d’étude de systèmes moléculaires basé sur l’étude d’interactions non covalentes, en vue d’une utilisation par un algorithme génétique ,</li>
 <li>CORIA (Université de Rouen) : Étude préliminaire du portage sur GPU du code Yales2 de combustion diphasique ,</li>
 <li>IRMA (Université de Strasbourg) : portage sur GPU d’un code de recherche de simulation de plasmas,</li>
-<li>Maison de la Simulation : Création d'un outil d'agrégation de performances énergétiques.</li>
+<li>Maison de la Simulation : Création d’un outil d’agrégation de performances énergétiques.</li>
 </ul></li>
 <li></li>
 </ul>
@@ -113,7 +257,7 @@
 <!-- :     *Challenge de classification d'images d'insectes pollenisateurs par deep learning sur GPU* -->
 <!-- :     Laboratoire de l'Accélérateur Linéaire, Université de Paris Sud et Musée National d'Histoire Naturelle. -->
 <dl>
-<dt>2011--2014</dt>
+<dt>2011–2014</dt>
 <dd><strong>Thèse de Doctorat en Mathématiques Appliquées</strong>
 </dd>
 </dl>
@@ -121,10 +265,10 @@
 <li><strong>Titre</strong>: Couplage de modèles, algorithmes multi-échelles et calcul hybride.</li>
 <li><strong>Lieu</strong>: Laboratoire Jean Kuntzmann (LJK), Grenoble.</li>
 <li><strong>Encadrement</strong>: Georges-Henri Cottet (directeur de thèse) et Christophe Picard (co-encadrant).</li>
-<li><strong>Recherche</strong>: Analyse et extension d'une classe de méthode semi-Lagrangienne (particulaire avec remaillage), implémentation multi-GPU d'algorithmes multi-échelle, calcul hybride multi-CPU/multi-GPU sur calculateurs locaux et régionaux, application à la simulation d'écoulements turbulents.</li>
+<li><strong>Recherche</strong>: Analyse et extension d’une classe de méthode semi-Lagrangienne (particulaire avec remaillage), implémentation multi-GPU d’algorithmes multi-échelle, calcul hybride multi-CPU/multi-GPU sur calculateurs locaux et régionaux, application à la simulation d’écoulements turbulents.</li>
 <li><strong>Communication</strong>: Conférences nationales et internationales , articles , documentation technique.</li>
 <li><strong>Certificat de Compétences en Calcul Intensif (C3I)</strong>, Grand Équipement National de Calcul Intensif (GENCI).</li>
-<li><strong>Mission complémentaire d'enseignement</strong>: 198h Département Licence Sciences et Technologies, Université Joseph Fourier.</li>
+<li><strong>Mission complémentaire d’enseignement</strong>: 198h Département Licence Sciences et Technologies, Université Joseph Fourier.</li>
 <li>Thèse soutenue le 4 décembre 2014.</li>
 <li></li>
 </ul>
@@ -136,12 +280,12 @@
 <dt>08/2012</dt>
 <dd><strong>Centre d’Été Mathématique de Recherche Avancée en Calcul Scientifique ()</strong> (6 semaines)
 </dd>
-<dd><em>Quantification de l'élasticité du cloud en fonction de la variation des demandes modélisées comme un flux turbulent</em> ,
+<dd><em>Quantification de l’élasticité du cloud en fonction de la variation des demandes modélisées comme un flux turbulent</em> ,
 </dd>
 <dd>Cisco Systems France, Issy les Moulineaux et Centre International de Rencontres Mathématiques, Marseille.
 </dd>
 <dt>2010/2011</dt>
-<dd><strong>Stage de master recherche et projet de fin d'études</strong> (6 mois)
+<dd><strong>Stage de master recherche et projet de fin d’études</strong> (6 mois)
 </dd>
 <dd><em>Évaluation des différentes formulations du terme de déformation en 3D Vortex Blob et applications sur des jets transverses et anneaux de vorticité</em>,
 </dd>
@@ -150,9 +294,9 @@
 <dt>2010</dt>
 <dd><strong>Stage ingénieur</strong> (5 mois)
 </dd>
-<dd><em>Caractérisation numérique du comportement d'hydroliennes</em> ,
+<dd><em>Caractérisation numérique du comportement d’hydroliennes</em> ,
 </dd>
-<dd>Institut Français de Recherche pour l'Exploitation de la MER Boulogne-Sur-Mer et Laboratoire Ondes et Milieux Complexes, Université du Havre.
+<dd>Institut Français de Recherche pour l’Exploitation de la MER Boulogne-Sur-Mer et Laboratoire Ondes et Milieux Complexes, Université du Havre.
 </dd>
 </dl>
 <h2 id="formation">Formation</h2>
@@ -160,7 +304,7 @@
 <dt>02/2015</dt>
 <dd><strong>Qualification aux fonctions de Maître de Conférences</strong>, section 26.
 </dd>
-<dt>2011--2014</dt>
+<dt>2011–2014</dt>
 <dd><strong>Thèse de Doctorat en Mathématiques Appliquées</strong>
 </dd>
 </dl>
@@ -177,15 +321,15 @@
 <li>Georges-Henri Cottet, PR, Université Joseph Fourier (Directeur de thèse),</li>
 <li>Alexis Herault, MCF, Conservatoire National des Arts et Métiers (Examinateur),</li>
 <li>Christophe Picard MCF, Grenoble INP (Co-Directeur de thèse),</li>
-<li>Christophe Prud'homme, PR, Université de Strasbourg (Examinateur),</li>
+<li>Christophe Prud’homme, PR, Université de Strasbourg (Examinateur),</li>
 <li>Jean-Baptiste Lagaert, MCF, Université Paris-Sud (Invité). <!-- * **Financement**: projet ANR HAMM (ANR-10-COSI-0009). --></li>
 </ul></li>
 </ul>
 <dl>
-<dt>2010--2011</dt>
+<dt>2010–2011</dt>
 <dd><strong>Master 2 Recherche</strong> Mathématiques et Informatique des Systèmes complexes et distribués, Université du Havre.
 </dd>
-<dt>2006--2011</dt>
+<dt>2006–2011</dt>
 <dd><strong>Ingénieur</strong> Génie Mathématique, Institut National des Sciences Appliquées (INSA) de Rouen.
 </dd>
 </dl>
@@ -206,25 +350,30 @@
 </dl>
 <h2 id="responsabilités-collectives">Responsabilités collectives</h2>
 <dl>
-<dt>2015--2017</dt>
+<dt>Depuis 2018</dt>
+<dd>Responsable pédagogique de la L1-MIASHS, UPPA (Licence de Mathématique et Informatique appliquée aux Sciences Humaines et Sociales)
+</dd>
+<dt>2015–2017</dt>
 <dd>Participation aux activités de la Maison de la Simulation de Champagne-Ardenne
 </dd>
 </dl>
-<p>Participation à l'organisation de la journée scientifique annuelle du centre de calcul ROMEO.</p>
+<p>Participation à l’organisation de la journée scientifique annuelle du centre de calcul ROMEO.</p>
 <dl>
-<dt>2012--2014</dt>
+<dt>2012–2014</dt>
 <dd>Représentant des doctorants auprès de la commission des moyens informatiques du LJK.
 </dd>
 </dl>
 <!-- 10/2012 -->
 <!-- :     Organisation de la journée de rentée des doctorants et post-doctorants du LJK. -->
-<h2 id="centres-dintérêts">Centres d'intérêts</h2>
+<h2 id="centres-dintérêts">Centres d’intérêts</h2>
 <ul>
 <li>Sports de montagne (randonnée, ski, course à pied), saxophone, piano, jeux de société, cuisine.</li>
 </ul>
 </div>
   </section>
       <footer>
+	←  <a href="index_fr.html">Accueil</a> / <a href="index.html">Home Page</a>
+                                   </br>
 	<a href="cv_fr.html">fr</a>/<a href="cv.html">en</a>
       </footer>
     </div>

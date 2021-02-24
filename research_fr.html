@@ -1,14 +1,153 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
-  <title></title>
-  <style type="text/css">code{white-space: pre;}</style>
-  <style type="text/css">
-.title {display: none;}
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>-</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .title {display: none;} 
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
   
       <link rel="icon" type="image/x-icon" href="http://jmetancelin.free.fr/jme.ico">
       <link rel="stylesheet" href="styles.css">
@@ -58,68 +197,77 @@
 	<!-- </ul></br> -->
 	<ul class="links">
 	  <!-- <li><a href="" alt="" /><img src="" alt="" /></a></li> -->
-	  <li><a target="_blank" href="https://fr.linkedin.com/in/jean-matthieu-etancelin-2143646a" alt="Linkedin" /><img src="http://jmetancelin.free.fr/images/linkedin.png" alt="Linkedin" /></a></li>
-<li><a target="_blank" href="https://www.researchgate.net/profile/Jean_Matthieu_Etancelin" alt="ResearchGate" /><img src="http://jmetancelin.free.fr/images/rg.png" alt="ResearchGate" /></a></li>
-<li><a target="_blank" href="https://scholar.google.fr/citations?user=Fruy5sUAAAAJ&hl=fr" alt="GoogleScholar" /><img src="http://jmetancelin.free.fr/images/gs.png" alt="GoogleScholar" /></a></li>
-<li><a target="_blank" href="https://github.com/jmetancelin"><img src="http://jmetancelin.free.fr/images/github.png" alt="GitHub" /></a></li>
-</ul>
+	  <!--  <li><a target="_blank" href="https://fr.linkedin.com/in/jean-matthieu-etancelin-2143646a" alt="Linkedin" />
+                <img src="http://jmetancelin.free.fr/images/linkedin.png" alt="Linkedin" /></a></li> -->
+          <!-- <li><a target="_blank" href="https://www.researchgate.net/profile/Jean_Matthieu_Etancelin" alt="ResearchGate" />
+               <img src="http://jmetancelin.free.fr/images/rg.png" alt="ResearchGate" /></a></li> -->
+          <li><a target="_blank" href="https://scholar.google.fr/citations?user=Fruy5sUAAAAJ&hl=fr" alt="GoogleScholar" />
+            <img src="http://jmetancelin.free.fr/images/gs.png" alt="GoogleScholar" /></a></li>
+          <li><a target="_blank" href="https://github.com/jmetancelin">
+              <img src="http://jmetancelin.free.fr/images/github.png" alt="GitHub" /></a></li>
+       </ul>
 </div>
 <div class="navigation">
   <ul>
     <!-- <li><h2><a href="index_fr.html">Accueil</a></h2></li> -->
-    <li><h2><a href="research_fr.html">Recherche</a></h2></li>
-    <li><h3><a href="biblio_fr.html">Publications</a></h3></li>
-    <li><h3><a href="gallery_fr.html">Applications</a></h3></li>
-    <li><h2>Ressources</h2></li>
-    <li><h3><a href="cv_fr.html">CV</a> (<a href="http://jmetancelin.free.fr/JMEtancelin_CV.pdf">pdf</a>)</h3></li>
+    <li><h2><a href="research_fr.html"> Recherche > </a></h2></li>
+    <li><h2><a href="biblio_fr.html"> Bibliographie > </a></h2></li>
+    <li><h2><a href="ens_fr.html"> Enseignements > </a></h2></li>
+    <!-- <li><h3><a href="gallery_fr.html">Applications</a></h3></li> -->
+    <!-- <li><h2>Ressources</h2></li> -->
+    <!-- <li><h3><a href="cv_fr.html">CV</a> (<a href="http://jmetancelin.free.fr/JMEtancelin_CV.pdf">pdf</a>)</h3></li> -->
   </ul>
 </div>
 </div>
 </header>
 <section>
 <h1 id="recherche">Recherche</h1>
-<h2 id="calcul-à-haute-performance">Calcul à Haute Performance</h2>
-<h3 id="calcul-sur-gpu">Calcul sur GPU</h3>
-<p>Les GPU développent une importante puissance de calcul à partir d'un relative faible consommation énergétique. De nombreuses applications peuvent bénéficier d'accélération significatives en utilisant ces GPU.</p>
+<!-- ## Calcul à Haute Performance -->
+<!-- ### Calcul sur GPU -->
+<!-- Les GPU développent une importante puissance de calcul à partir d'un relative faible consommation énergétique. De nombreuses applications peuvent bénéficier d'accélération significatives en utilisant ces GPU. -->
+<!-- - Utilisation des GPU comme accélérateurs pour les parties intensives des applications -->
+<!-- - Optimisation de code, d'algorithmes et de méthodes pour exploiter l'architecture GPU -->
+<!-- ### Calcul hybride -->
+<!-- Les architectures matérielles actuelles sont génératlement composées de processeurs CPU et d'accélérateurs (GPU, co-processeurs). L'ensemble de cette hétérogénéité doit être exploitée de manière efficace par les applications. -->
+<!-- - Répartition des calculs entre CPU et co-processeurs (GPU) -->
+<!-- - Exploitation efficace de calculateurs hybrides -->
+<!-- - Parallélisme 'in-situ' -->
+<!-- ## Méthodes particulaire avec remaillage et hybrides (méthodes particulaires semi-Lagrangienne) -->
+<h2 id="simulation-découlements-microfluidiques-réactifs-en-milieux-poreux">Simulation d’écoulements microfluidiques réactifs en milieux poreux</h2>
 <ul>
-<li>Utilisation des GPU comme accélérateurs pour les parties intensives des applications</li>
-<li>Optimisation de code, d'algorithmes et de méthodes pour exploiter l'architecture GPU</li>
+<li>Dissolution d’échantillons de roches calcaires poreuses sous l’effet d’un écoulement acide.</li>
+<li>Géométrie réelle issue de tomographie aux rayons X</li>
 </ul>
-<h3 id="calcul-hybride">Calcul hybride</h3>
-<p>Les architectures matérielles actuelles sont génératlement composées de processeurs CPU et d'accélérateurs (GPU, co-processeurs). L'ensemble de cette hétérogénéité doit être exploitée de manière efficace par les applications.</p>
+<h2 id="formules-de-remaillage-dordre-élevé">Formules de remaillage d’ordre élevé</h2>
 <ul>
-<li>Répartition des calculs entre CPU et co-processeurs (GPU)</li>
-<li>Exploitation efficace de calculateurs hybrides</li>
-<li>Parallélisme 'in-situ'</li>
-</ul>
-<h2 id="méthodes-particulaire-avec-remaillage-et-hybrides-méthodes-particulaires-semi-lagrangienne">Méthodes particulaire avec remaillage et hybrides (méthodes particulaires semi-Lagrangienne)</h2>
-<h3 id="formules-de-remaillage-dordre-élevé">Formules de remaillage d'ordre élevé</h3>
-<ul>
-<li>Analyse de formules de remaillages d'ordre spatial élevé avec splitting dimensionnel</li>
+<li>Analyse de formules de remaillages d’ordre spatial élevé avec splitting dimensionnel</li>
 <li>Utilisation de GPU pour absorber un coût arithmétique important</li>
 </ul>
-<h3 id="simulation-de-transport-de-scalaire-passif-par-un-écoulement-turbulent-à-laide-dun-solveur-hybride-et-multi-échelle">Simulation de transport de scalaire passif par un écoulement turbulent à l'aide d'un solveur hybride et multi-échelle</h3>
+<h2 id="simulation-de-transport-de-scalaire-passif-par-un-écoulement-turbulent-à-laide-dun-solveur-hybride-et-multi-échelle">Simulation de transport de scalaire passif par un écoulement turbulent à l’aide d’un solveur hybride et multi-échelle</h2>
 <ul>
-<li>Utilisation de différentes échelles pour la résolution de l'écoulement (échelle grossière) et du transport de scalaire (échelle fine)</li>
-<li>Exploitation d'architectures différentes pour la résolution de l'écoulement (multi-CPU) et du transport de scalaire (multi-GPU)</li>
+<li>Utilisation de différentes échelles pour la résolution de l’écoulement (échelle grossière) et du transport de scalaire (échelle fine)</li>
+<li>Exploitation d’architectures différentes pour la résolution de l’écoulement (multi-CPU) et du transport de scalaire (multi-GPU)</li>
 </ul>
-<h3 id="résolution-multi-échelle-découlements-diphasiques">Résolution multi-échelle d'écoulements diphasiques</h3>
+<p><img src="https://nuage.univ-pau.fr/s/RR8LSMCaJsg4K6Z/preview" /></p>
+<p><img src="https://nuage.univ-pau.fr/s/jsaQryAoWLxDjbf/preview" /></p>
+<h1 id="collaborations-et-projets">Collaborations et projets</h1>
+<h3 id="membre-du-projet-anr-mucoready-anr-project-mucus-cystic-fibrosys-and-respiratory-dysfunctions">2020-2024: Membre du projet ANR MucoReaDy, ANR Project Mucus, Cystic Fibrosys and Respiratory Dysfunctions,</h3>
+<h3 id="membre-du-projet-micromineral-i-site-e2s-uppa-et-carnot-institute-isifor">2019-2023: Membre du projet MicroMineral, I-Site E2S-UPPA et Carnot Institute ISIFoR</h3>
+<p>Méthodes semi-lagrangiennes pour l’étude des processus micrométriques réactifs du stockage minéral du CO2</p>
+<h3 id="cfd-instationnaire-autour-de-profils-aerodynamiques-onera">(2015-2017) CFD instationnaire autour de profils aérodynamiques (ONERA)</h3>
+<p>Optimisation et passage à l’échelle d’un code de recherche, NextFlow, développé à l’ONERA. Ce code vise à montrer la faisabilité de l’utilisation de méthodes de type LES pour la simulation d’écoulements turbulents en aéronautique dans des configurations réalistes.</p>
 <ul>
-<li>Couplage multi-échelle de l'écoulement et du transport de densité</li>
-</ul>
-<h1 id="collaborations">Collaborations</h1>
-<h2 id="cfd-instationnaire-autour-de-profils-aerodynamiques-onera">CFD instationnaire autour de profils aérodynamiques (ONERA)</h2>
-<p>Optimisation et passage à l'échelle d'un code de recherche, NextFlow, développé à l'ONERA. Ce code vise à montrer la faisabilité de l'utilisation de méthodes de type LES pour la simulation d'écoulements turbulents en aéronautique dans des configurations réalistes.</p>
-<ul>
-<li>Code multi-GPU basé sur une méthode volumes finis d'ordre élevé avec reconstruction polynomiale des variables conservatives.</li>
+<li>Code multi-GPU basé sur une méthode volumes finis d’ordre élevé avec reconstruction polynomiale des variables conservatives.</li>
 <li>Co-traitements asynchrones sur les coeurs CPU inutilisés</li>
 </ul>
-<h2 id="calculs-dinteractions-non-covalentes-à-partir-de-la-densité-promoléculaire-icmr-et-atos">Calculs d'interactions non-covalentes à partir de la densité promoléculaire (ICMR et ATOS)</h2>
-<p>Développement et optimisation sur GPU d'une méthode numérique spécifique à l'étude d'interaction ligand-protéine en vue d'une utilisation dans un algorithme générique pour l'analyse d'arrimage moléculaire.</p>
-<h2 id="portage-gpu-du-code-yales2-coria">Portage GPU du code Yales2 (CORIA)</h2>
+<h3 id="calculs-dinteractions-non-covalentes-à-partir-de-la-densité-promoléculaire-icmr-et-atos">(2017) Calculs d’interactions non-covalentes à partir de la densité promoléculaire (ICMR et ATOS)</h3>
+<p>Développement et optimisation sur GPU d’une méthode numérique spécifique à l’étude d’interaction ligand-protéine en vue d’une utilisation dans un algorithme générique pour l’analyse d’arrimage moléculaire.</p>
+<h3 id="portage-gpu-du-code-yales2-coria">(2017) Portage GPU du code Yales2 (CORIA)</h3>
 <p>Étude préliminaire du portage sur GPU du code Yales2 qui est un code de simulation DNS de combustion diphasique.</p>
   </section>
       <footer>
+	←  <a href="index_fr.html">Accueil</a> / <a href="index.html">Home Page</a>
+                                   </br>
 	<a href="research_fr.html">fr</a>/<a href="research.html">en</a>
       </footer>
     </div>
