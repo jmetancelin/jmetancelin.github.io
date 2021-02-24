@@ -1,5 +1,3 @@
-% JM Etancelin
-
 # Associate professor
 
 Since 09/2017  I am an Associate Professor in Applied Mathematics at the University of Pau.
