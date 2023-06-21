@@ -1,15 +1,12 @@
 <div class="cv">
 
 
-## Situation actuelle
-
-MCF en Mathématiques
-:    Université de Pau et des Pays de l'Adour, Laboratoire de Mathématiques et leurs Applications
-
-Enseignement
-:    Math, Math Appliquées et HPC en Licence et Master, UPPA
-
 ## Expériences
+
+Depuis 09/2017
+:    **Maître de conférences** en mathématiques appliquées, Université de
+     Pau et des Pays de l'Adour, Laboratoire de Mathématiques et leurs
+     Applications, équipe "Méthodes numériques et fluides complexes"
 
 01/2015 -- 08/2017
 :    **Ingénieur de recherche, expert en technologies GPU**, Centre de calcul de Champagne-Ardenne ROMEO, CReSTIC, URCA, Reims.
@@ -67,6 +64,20 @@ Enseignement
 :     *Caractérisation numérique du comportement d'hydroliennes* [@germainvers2010],
 :     Institut Français de Recherche pour l'Exploitation de la MER Boulogne-Sur-Mer et Laboratoire Ondes et Milieux Complexes, Université du Havre.
 
+## Thèmes de recheche
+
+.
+:    **Calcul à hautes performances**: programmation hybride
+     distribuée, mémoire partagée et GPU.
+
+.
+:    **Méthodes numériques**: Méthodes particulaires avec remaillage
+     (Particle-In-Cell), méthodes hybrides.
+
+.
+:    **Milieux poreux**, écoulements réactifs en milieu poreux, à
+     l'échelle des pores.
+
 ## Formation
 
 02/2015
@@ -114,6 +125,17 @@ Langues
 
 ## Responsabilités collectives
 
+2021
+:    Membre du comité de Sélection pour un poste Maitre de Conférences en section 26/60 à l’Université Côte d’Azur
+
+Depuis 2019
+:    Membre du jury du label Certificat de Compétences en Calcul
+     Intensif (C3I) attribué par le GENCI
+
+Depuis 2019
+:    Membre de la commission de recrutement d’étudiants pour le master MIBD.
+
+
 Depuis 2018
 :     Responsable pédagogique de la L1-MIASHS, UPPA (Licence de
       Mathématique et Informatique appliquée aux Sciences Humaines et Sociales)
@@ -122,7 +144,7 @@ Depuis 2018
 :     Participation aux activités de la Maison de la Simulation de
 Champagne-Ardenne
 
-Participation à l'organisation de la journée scientifique annuelle du centre de
+Co-organisation de la journée scientifique annuelle du centre de
   calcul ROMEO.
 
 2012--2014
@@ -132,8 +154,8 @@ Participation à l'organisation de la journée scientifique annuelle du centre d
 <!-- :     Organisation de la journée de rentée des doctorants et post-doctorants du LJK. -->
 
 
-## Centres d'intérêts
-* Sports de montagne (randonnée, ski, course à pied), saxophone, piano, jeux de société, cuisine.
+<!-- ## Centres d'intérêts -->
+<!-- * Sports de montagne (randonnée, ski, course à pied), saxophone, piano, jeux de société, cuisine. -->
 
 
 

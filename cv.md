@@ -1,15 +1,12 @@
 <div class="cv">
 
 
-## Current position
-
-Associate professor
-:    University of Pau, Mathematics and their applications lab.
-
-Teaching
-:    Math, Applied Math and HPC courses in Licence and Master degree, UPPA
-
 ## Experiences
+
+Since 09/2019
+:    **Assistant professor**, University of Pau, Laboratory of
+     Mathematics and their applications, team "Numerical methods and
+     complex fluids"
 
 01/2015 -- 08/2017
 :    **Research engineer, expert in GPU technlogies**, ROMEO HPC Center of Reims, CReSTIC, URCA
@@ -63,6 +60,19 @@ Teaching
 :    **Stage ingénieur**: Numerical caracterisation of marine current turbines, Institut Francais de Recherche pour l'Exploitation de la MER (IFREMER), Boulogne-Sur-Mer et LOMC, Université du Havre
 :    Numerical simulations of turbulent flow interacting with marine current turbine [@germainvers2010].
 
+## Research interests
+
+.
+:    **High performance computing**, hybrid computing, distributed and
+     shared memory parallelism, GPU.
+
+.
+:    **Numerical methods**, Particle methods with remeshign
+     (Particle-In-Cell), hybrid numerical methods.
+
+.
+:    **Porous media**, reactive flows through porous media, pore-scale.
+
 
 ## Education
 
@@ -110,13 +120,25 @@ Languages
 
 ## Collective responsibilities
 
+2021
+:    Member of selection commitee for Assistant Professor in  section
+     26/60 at University of Côte d’Azur
+
+Depuis 2019
+:    Member of board for Skill Certificate in High Performance
+     Computing delivered by the GENCI
+
+Since 2019
+:    Member of recruitment commitee for student in MIBD master
+
+
 Since 2018
 :     In charge of pedagogic organization of L1-MIASHS, UPPA
       (Mathematics and Computer Science applied to Human and Social Sciences)
 
 2015--2017
 :     Animating activities of the Maison de la Simulation de
-  Champagne-Ardenne. Participating in the organization of ROMEO annual scientific day
+  Champagne-Ardenne. Co-organization of ROMEO annual scientific day
 
 2012--2014
 :     Represent PhD student for IT laboratory managment
@@ -125,6 +147,6 @@ Since 2018
 :     Organization of the welcome day for new PhD and post-doc
 
 
-## Interests
+<!-- ## Interests -->
 
-* Mountain sports (hiking, skiing, running), saxophone, piano, board games, cooking.
+<!-- * Mountain sports (hiking, skiing, running), saxophone, piano, board games, cooking. -->
