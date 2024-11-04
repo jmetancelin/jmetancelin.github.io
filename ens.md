@@ -10,7 +10,7 @@ and Computer Science Applied to Human and Social Sciences)
 - Since 09-2017 : High Performance Computing (M2 MMS)
 - Since 09-2017 : Numerical Simulation (M1 MMS)
 
-## Enseignements à l'URCA
+## Teaching at URCA
 
 - 2015-2017 : Advanced GPU programming (M2 DAR)
 - 2015-2017 : High Performance computing (M2 DAR)
