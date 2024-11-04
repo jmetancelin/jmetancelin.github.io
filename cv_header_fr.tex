@@ -1,14 +1,36 @@
-\title{Maître de conférences en mathématiques}
+\title{Maître de conférences en mathématiques appliquées}
 \author{Jean-Matthieu Etancelin}
-\date{\vspace{1em}Lab. de Math. et leurs Applications de Pau, \\UMR CNRS 5142, IPRA, \\Université de Pau et des Pays de l'Adour\\ BP1155 - 64013 Pau CEDEX\\%6 place du Colonel Fabien\\ 75 019 Paris\\
-+33 (0) 5 59 40 75 36\\%06 24 79 49 46\\
-\href{mailto:jean-matthieu.etancelin@univ-pau.fr}{jean-matthieu.etancelin@univ-pau.fr}\\
-\href{jmetancelin.github.io}{jmetancelin.github.io}\\
-%Né le 06/09/1988
-}
+% \date{\vspace{1em}Lab. de Math. et leurs Applications de Pau, \\UMR CNRS 5142, IPRA, \\Université de Pau et des Pays de l'Adour\\ BP1155 - 64013 Pau CEDEX\\%6 place du Colonel Fabien\\ 75 019 Paris\\
+% +33 (0) 5 59 40 75 36\\%06 24 79 49 46\\
+% \href{mailto:jean-matthieu.etancelin@univ-pau.fr}{jean-matthieu.etancelin@univ-pau.fr}\\
+% \href{jmetancelin.github.io}{jmetancelin.github.io}\\
+% %Né le 06/09/1988
+% }
+\usepackage{tabularx}
 
+  \makeatletter
+  \def\@maketitle{%
+  \newpage
+  \null
+  \vskip 2em%
+  \@author
+  \begin{tabularx}{\textwidth}{lXr}
+  \textsf{\textbf{Jean-Matthieu Etancelin}}
+  & & Lab. de Mathématiques et de leurs Applications de Pau\\
+  {Maître de conférences }
+  & & Université de Pau et des Pays de l'Adour\\
+  {en mathématiques appliquées}& & Avenue de l’Université, BP 1155\\
+  & & 64013 Pau Cedex\\
+  \end{tabularx}\par \lineskip 2em%
+  \vskip 3em}
+  \makeatother
 
-
+  \usepackage{enumitem}
+  \setlist[description,1]{leftmargin=0pt,itemindent=0pt,align=right,topsep=0pt,partopsep=0pt,parsep=0pt,itemsep=0pt}
+  \setlist[itemize,1]{itemindent=-10pt,labelwidth=0pt,labelsep=3mm,topsep=0pt,partopsep=0pt,parsep=0pt,itemsep=0pt}
+  \setlist[itemize,2]{itemindent=-10pt,leftmargin=10pt,labelwidth=0pt,labelsep=3mm,topsep=0pt,partopsep=0pt,parsep=0pt,itemsep=0pt}
+  \RedeclareSectionCommand[beforeskip=-10pt,afterskip=1sp]{paragraph}
+  \RedeclareSectionCommand[beforeskip=-10pt,afterskip=1sp]{subparagraph}
 
 \DeclareBibliographyCategory{myrefsart}
 \DeclareBibliographyCategory{myrefsproc}

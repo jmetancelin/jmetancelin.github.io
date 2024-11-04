@@ -3,12 +3,16 @@
 
 ## Experiences
 
-Since 09/2019
+2019-...
 :    **Assistant professor**, University of Pau, Laboratory of
      Mathematics and their applications, team "Numerical methods and
      complex fluids"
 
-01/2015 -- 08/2017
+* **Software development**: HySoP : Hybrid Simulation with Particles
+* **Supervision**:
+    * 2024-27 (co-supervisor at 50%): PhD of Jérémie Racot
+
+2015-17
 :    **Research engineer, expert in GPU technlogies**, ROMEO HPC Center of Reims, CReSTIC, URCA
 
 * **GPU Application Lab**: Expertise in porting and optimisation of GPU accelerated codes for users.
@@ -25,12 +29,12 @@ Since 09/2019
 	* IRMA (University of Strasbourg) : GPU porting of a research code on plasmas simulations,
 	* Maison de la Simulation : Design of an aggregation tool for renergy performances.
 
-10/2015
-:     **Rapid Analytics and Model Prototyping**
-:     *Deeplearning challenge for pollinating insects images using GPUs*
-:     Laboratoire de l'Accélérateur Linéaire, University of Paris South and Musée National d'Histoire Naturelle
+<!-- 10/2015 -->
+<!-- :     **Rapid Analytics and Model Prototyping** -->
+<!-- :     *Deeplearning challenge for pollinating insects images using GPUs* -->
+<!-- :     Laboratoire de l'Accélérateur Linéaire, University of Paris South and Musée National d'Histoire Naturelle -->
 
-10/2011 -- 12/2014
+2011-14
 :   **PhD in Applied Mathematics**:
 
 * **Title**: Model coupling, multiscale algorithms and hybrid computing
@@ -42,22 +46,22 @@ Since 09/2019
 * **Teaching**: Computer science and programming techinques (135 h, Cours/TD/TP, L1), multivariate functions and linear algebra (36 h, TD, L2), Scilab practical session: image, signal, interpolation, curves and surfaces (27 h, TP, L1).
 * PhD defended on the 4th of december 2014
 
-03/2013
+2013
 :    **Semaine d'Étude Mathématiques et Entreprises**, Laboratoire Jean Kuntzmann, Grenoble
 :    Exploring an industrial problem by PhD students and graduate.
 :    Kolor project: *Sparce modelig of colors transfert functions with Bezier curves*.
 
-07/2012 -- 08/2012
+2012-12
 :    **Centre d’Eté Mathématique de Recherche Avancée en Calcul Scientifique (CEMRACS)**, Centre International de Rencontres Mathématiques, Marseille
 :    Industrial research projetct in an academic context.
 :    Cisco project: *Cloud computing elasticity as a query transport*. Numerical simulation of the behavior of a virtual machines set based on a finite volume scheme to automate cloud elasticity [@etancelinmacroscopic2013].
 
-10/2010 -- 06/2011
+2010-11
 :    **Research intenship**: *Evaliating of stretching term various formulations in 3D Vortex Blob method and applications to crossflow jets and vorticity rings*, Laboratoire Ondes et Milieux Complexes (LOMC), Université du Havre
 :    Numerical simulation of crossflow jet. Study of numerical instabilities on vorticity rings.
 
-06/2010 -- 10/2010
-:    **Stage ingénieur**: Numerical caracterisation of marine current turbines, Institut Francais de Recherche pour l'Exploitation de la MER (IFREMER), Boulogne-Sur-Mer et LOMC, Université du Havre
+2010
+:    **Engineer internship**: Numerical caracterisation of marine current turbines, Institut Francais de Recherche pour l'Exploitation de la MER (IFREMER), Boulogne-Sur-Mer et LOMC, Université du Havre
 :    Numerical simulations of turbulent flow interacting with marine current turbine [@germainvers2010].
 
 ## Research interests
@@ -76,46 +80,47 @@ Since 09/2019
 
 ## Education
 
-10/2011 -- 12/2014
-:   **PhD in Applied Mathematics**:
+2011-14
+:   **PhD in Applied Mathematics**, Université Joseph Fourier, Grenoble.
 
-* **Title**: Model coupling, multiscale algorithms and hybrid computing
-* **Place**: Laboratoire Jean Kuntzmann, Université Joseph Fourier, Grenoble
-* **Supervisors**: G.-H. Cottet et C. Picard
-* **Jury**:
-    * Stéphane Labbé, PR, Université Joseph Fourier
-    * Florian De Vuyst, PR, École Normale Supérieure de Cachan
-    * Philippe Helluy, PR, Université de Strasbourg
-    * Guillaume Balarac, MCF, Grenoble INP
-    * Georges-Henri Cottet, PR, Université Joseph Fourier
-    * Alexis Herault, MCF, Conservatoire National des Arts et Métiers
-    * Christophe Picard MCF, Grenoble INP
-    * Christophe Prud'homme, PR, Université de Strasbourg
-    * Jean-Baptiste Lagaert, MCF, Université Paris-Sud
-* **Funding**: French ANR Project HAMM (ANR-10-COSI-0009)
+<!-- * **Title**: Model coupling, multiscale algorithms and hybrid computing -->
+<!-- * **Place**: Laboratoire Jean Kuntzmann, Université Joseph Fourier, Grenoble -->
+<!-- * **Supervisors**: G.-H. Cottet et C. Picard -->
+<!-- * **Jury**: -->
+<!--     * Stéphane Labbé, PR, Université Joseph Fourier -->
+<!--     * Florian De Vuyst, PR, École Normale Supérieure de Cachan -->
+<!--     * Philippe Helluy, PR, Université de Strasbourg -->
+<!--     * Guillaume Balarac, MCF, Grenoble INP -->
+<!--     * Georges-Henri Cottet, PR, Université Joseph Fourier -->
+<!--     * Alexis Herault, MCF, Conservatoire National des Arts et Métiers -->
+<!--     * Christophe Picard MCF, Grenoble INP -->
+<!--     * Christophe Prud'homme, PR, Université de Strasbourg -->
+<!--     * Jean-Baptiste Lagaert, MCF, Université Paris-Sud -->
+<!-- * **Funding**: French ANR Project HAMM (ANR-10-COSI-0009) -->
 
-06/2011
+2011
 :   **Mathematics Engineer**, Institut National des Sciences Appliquées de Rouen
 :   Numerical analysis, differential calculus, software engineering, artificial intelligence, inverse problems, non linear automatic control
 
-06/2011
+2011
 :   **Master 2 Research: Mathematics and Computer Science of complex and distributed systems**, Université du Havre
 :   Complex systems modeling, non linear analysis, dynamic systems, complexity and interaction networks, code mobility.
 
 
 ## Technical skills
 
-Parallel computing
-:    CUDA, OpenCL, OpenACC, OpenMP, MPI
+.
+:    **Parallel computing**:    CUDA, OpenCL, OpenACC, OpenMP, MPI
 
-Programming
-:    Python, C/C++, Fortran, Shell Unix
+.
+:    **Programming**:    Python, C/C++, Fortran, Shell Unix
 
-Tools
-:    Jupyter, TAU, Scalasca, git, svn, ParaView, HDF5, Gnuplot, \LaTeX
+.
+:    **Tools** :    Jupyter, TAU, Scalasca, git, svn, ParaView, HDF5, Gnuplot,
+     \LaTeX, AMC
 
-Languages
-:    French: native, English: fluent (TOEIC: 830/990, 2010)
+.
+:    **Languages** :    French: native, English: fluent
 
 
 ## Collective responsibilities
@@ -124,26 +129,26 @@ Languages
 :    Member of selection commitee for Assistant Professor in  section
      26/60 at University of Côte d’Azur
 
-Depuis 2019
+2019-...
 :    Member of board for Skill Certificate in High Performance
      Computing delivered by the GENCI
 
-Since 2019
+2019-...
 :    Member of recruitment commitee for student in MIBD master
 
 
-Since 2018
+2018-...
 :     In charge of pedagogic organization of L1-MIASHS, UPPA
       (Mathematics and Computer Science applied to Human and Social Sciences)
 
-2015--2017
+2015-17
 :     Animating activities of the Maison de la Simulation de
   Champagne-Ardenne. Co-organization of ROMEO annual scientific day
 
-2012--2014
+2012-14
 :     Represent PhD student for IT laboratory managment
 
-10/2012
+2012
 :     Organization of the welcome day for new PhD and post-doc
 
 

@@ -33,7 +33,7 @@ clean:
 	rm -f $(pages) JMEtancelin_CV.pdf JMEtancelin_Resume.pdf JMEtancelin_CV.tex JMEtancelin_Resume.tex *.bbl *blx.bib index.html index_fr.html
 
 JMEtancelin_CV.tex: cv_fr.md cv_biblatex_end.tex cv_header_fr.tex cv_begin.tex
-	pandoc -H cv_header_fr.tex -B cv_begin.tex -A cv_biblatex_end.tex --biblatex -s $< -V classoption:fr -V classoption:13pt -V documentclass:cv -V indent:ok -V linkcolor:black -V urlcolor:black -o $@
+	pandoc -H cv_header_fr.tex -B cv_begin.tex -A cv_biblatex_end.tex --biblatex -s $< -V classoption:fr -V classoption:12pt -V classoption:DIV=14 -V  documentclass:scrartcl -V indent:ok -V linkcolor:black -V urlcolor:black -o $@
 	@sed -i.orig 's/\\usepackage{biblatex}//' $@
 	@sed -i.orig 's/\\printbibliography$$//' $@
 	@sed -i.orig 's/\([a-zA-Z0-9]\) :/\1:/g' $@
@@ -42,7 +42,7 @@ JMEtancelin_CV.tex: cv_fr.md cv_biblatex_end.tex cv_header_fr.tex cv_begin.tex
 	rm $@.orig
 
 JMEtancelin_Resume.tex: cv.md cv_biblatex_end.tex cv_header.tex cv_begin.tex
-	pandoc -H cv_header.tex -B cv_begin.tex -A cv_biblatex_end.tex --biblatex -s $< -V classoption:13pt -V documentclass:cv -V indent:ok -V linkcolor:black -V urlcolor:black  -V classoption:leftalignopt=2cm  -o $@
+	pandoc -H cv_header.tex -B cv_begin.tex -A cv_biblatex_end.tex --biblatex -s $< -V classoption:12pt -V classoption:DIV=14  -V documentclass:scrartcl -V indent:ok -V linkcolor:black -V urlcolor:black  -V classoption:leftalignopt=2cm  -o $@
 	@sed -i.orig 's/\\usepackage{biblatex}//' $@
 	@sed -i.orig 's/\\printbibliography$$//' $@
 	@sed -i.orig 's/\([a-zA-Z0-9]\) :/\1:/g' $@

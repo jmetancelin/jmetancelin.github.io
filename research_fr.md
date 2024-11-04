@@ -42,11 +42,27 @@
 
 # Collaborations et projets
 
-### 2020-2024: Membre du projet ANR MucoReaDy, ANR Project Mucus, Cystic Fibrosys and Respiratory Dysfunctions,
+### 2024-27: (porteur de projet) Projet Recherche Communauté d'Agglomération de Pau-Béarn-Pyrénées
+
+Approche numérique de la rupture des roches
+carbonatées chimiquement altérées pour la mise en sécurité des
+réservoirs géologiques
+
+### 2020-2024: Membre du projet ANR MucoReaDy, ANR Project
+
+Mucus, Cystic Fibrosys and Respiratory Dysfunctions,
+
 ### 2019-2023: Membre du projet MicroMineral, I-Site E2S-UPPA et Carnot Institute ISIFoR
 
 Méthodes semi-lagrangiennes pour l’étude des processus
 micrométriques réactifs du stockage minéral du CO2
+
+### 2018-2021: (porteur de projet) Projet Recherche Communauté d'Agglomération de Pau-Béarn-Pyrénées
+
+Élaboration et développement de codes de
+calculs à haute performance sur des architectures de calcul parallèle
+hybrides pour la simulation d'écoulements microfluidiques réactifs en
+milieux poreux
 
 ### (2015-2017) CFD instationnaire autour de profils aérodynamiques (ONERA)
 
