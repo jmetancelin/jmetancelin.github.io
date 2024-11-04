@@ -1,4 +1,62 @@
 
+@inproceedings{etancelinmethode2018,
+  title = {Méthode {{Vortex}} et {{Calcul}} à {{Hautes Performances}}},
+  booktitle = {{{CANUM}} 2018 - 44e {{Congrès National}} d'{{Analyse Numérique}}},
+  author = {Etancelin, Jean-Matthieu},
+  date = {2018-05},
+  location = {Cap d'Agde, France},
+}
+
+@inproceedings{etancelinreactive2018a,
+  title = {Reactive Flows at Pore Scale with Hybrid Computing},
+  author = {Etancelin, Jean-Matthieu and Poncet, Philippe},
+  date = {2018-09-10},
+  url = {https://univ-pau.hal.science/hal-02127673},
+  urldate = {2023-09-25},
+  eventtitle = {Fifteenth {{International Conference Zaragoza-Pau}} on {{Mathematics}} and Its {{Applications}}},
+  langid = {english},
+}
+
+@inproceedings{perezsemilagrangian2021,
+  title = {A Semi-{{Lagrangian}} Numerical Method for the Simulation of Precipitation/Crystallization at the Pore Scale of Porous Media},
+  booktitle = {{{CrysPoM VII}} 2021},
+  author = {Perez, Sarah and Etancelin, Jean-Matthieu and Poncet, Philippe},
+  date = {2021-06},
+  location = {Pau, France},
+  url = {https://hal.science/hal-03282990},
+  urldate = {2023-09-25},
+  abstract = {This talk presents advances in numerical methods for the simulation of single-phase flow, reactive transport and solid geometry evolution at the pore scale, involving dissolution, precipitation and crystallization, and will be structured in three parts. Firstly, we will present the semi-Lagrangian approach of the problem and the related models, involving particle/Lagrangian treatment of the transport phenomena and reactions, and underlying grids for the diffusion and flow computation. Frequent remeshing procedure is required in order to keep particles on a regular network, in order to avoid holes of information and particle accumulation. This remeshing technique is either high order but can generated sign changes, which is unacceptable in chemistry, or low order but leads to spurious diffusion. An a posteriori kernel selection will be provided in order deal with this difficulty. Secondly, we will describe the validation of the method by a dissolution process of 2D and 3D calcite cores (including experimental validation) with a benchmark approach. Five codes are used to obtain the solution to this benchmark problem, including Chombo-Crunch, OpenFOAM-DBS, a lattice Boltzman code, the present semi-Lagrangian method, and dissolFoam. These codes cover a good portion of the wide range of approaches typically employed for solving pore-scale problems in the literature, including discretization methods, characterization of the fluid-solid interfaces, and methods to move these interfaces as a result of fluid-solid reactions. Results from the simulations performed by the five codes show remarkable agreement both quantitatively based on upscaled parameters such as surface area, solid volume and effective reaction rate and qualitatively based on comparisons of shape evolution. This outcome is especially notable given the disparity of approaches used by the codes. Thirdly, we will focus on the simulations of precipitation and crystallization. This last aspect can include either the rheology of precipitation or the crystal growth, and the ability to manage the divergence of the velocity induced by the reaction and its related evolution of the global volumic mass. Indeed, in this context, a fast change of state from liquid to solid means incompressible but non divergence-free flows.},
+  keywords = {crystallization,dissolution,Lagrangian methods,pore-scale modeling,porous media,precipitation,reactive transport},
+}
+
+@inproceedings{perezsimulation2022,
+  title = {Simulation of Reactive Flows on {{3D}} Pore-Scale Geometries Using Particle Methods and Their Impact on Macroscopic Properties: Applications to Dissolution, Precipitation and Crystallization},
+  shorttitle = {Simulation of Reactive Flows on {{3D}} Pore-Scale Geometries Using Particle Methods and Their Impact on Macroscopic Properties},
+  booktitle = {Sixteenth {{International Conference Zaragoza-Pau}} on {{Mathematics}} and Its {{Applications}}},
+  author = {Perez, Sarah and Etancelin, Jean-Matthieu and Poncet, Philippe},
+  date = {2022-09},
+  location = {Jaca, Spain},
+  url = {https://hal.science/hal-04161883},
+  urldate = {2023-09-25},
+}
+
+@software{hysop,
+  title = {{{HySoP}}: {{Hybrid Simulation}} with {{Particles}}},
+  author = {Etancelin, Jean-Matthieu and Mimeau, Chloé and Picard, Christophe and Keck, Jean-Baptiste and Cottet, Georges-Henri and Pérignon, Franck},
+  date = {2023},
+  url = {https://gricad-gitlab.univ-grenoble-alpes.fr/particle_methods/hysop},
+  abstract = {HySoP (Hybrid Simulation with Particles) is a library dedicated to high performance direct numerical simulation of fluid related problems based on semi-lagrangian particle methods, for hybrid architectures providing multiple compute devices including CPUs, GPUs or MICs.},
+  version = {2.0}
+}
+
+
+@inproceedings{poncetnew2018,
+  title = {New Trends in {{Vortex Methods}} for Reactive Flows},
+  booktitle = {{{InterPore}} 2018},
+  author = {Poncet, Philippe and Hume, Laurène and Etancelin, Jean-Matthieu},
+  date = {2018-05},
+  location = {New Orleans, United States},
+}
 @article{etancelinimprovement2020,
   title = {Improvement of Remeshed {{Lagrangian}} Methods for the Simulation of Dissolution Processes at Pore-Scale},
   author = {Etancelin, Jean-Matthieu and Moonen, Peter and Poncet, Philippe},

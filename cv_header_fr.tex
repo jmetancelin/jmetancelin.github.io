@@ -32,19 +32,22 @@
   \RedeclareSectionCommand[beforeskip=-10pt,afterskip=1sp]{paragraph}
   \RedeclareSectionCommand[beforeskip=-10pt,afterskip=1sp]{subparagraph}
 
+\DeclareBibliographyCategory{mysofts}
 \DeclareBibliographyCategory{myrefsart}
 \DeclareBibliographyCategory{myrefsproc}
 \DeclareBibliographyCategory{myrefsconf}
 \DeclareBibliographyCategory{mythese}
 
+\defbibheading{mysofts}{\paragraph{Développements logiciels}}
 \defbibheading{myrefsart}{\paragraph{Revues avec comité de recture}}
 \defbibheading{myrefsproc}{\paragraph{Actes de conférences avec comité de lecture}}
 \defbibheading{myrefsconf}{\paragraph{Conférences avec comité de sélection}}
 \defbibheading{mythese}{\paragraph{Thèse}}
 
-\addtocategory{myrefsart}{cottethigh2014,rubezgpu2017,cottetgpu2013,}
+\addtocategory{mysofts}{hysop,}
+\addtocategory{myrefsart}{etancelinimprovement2020,cottethigh2014,rubezgpu2017,cottetgpu2013,}
 \addtocategory{myrefsproc}{etancelinmulticpu2014,renardromeolab2017,legoueznumerical2015,balaracmultiscale2013,germainvers2010}
-\addtocategory{myrefsconf}{hautreuxpreexascale2017,etancelinmultigpu2016,etancelinadvanced2016,legouezoptimized2016,etancelinmacroscopic2013}
+\addtocategory{myrefsconf}{perezsimulation2022,perezsemilagrangian2021,etancelinreactive2018a,etancelinmethode2018,hautreuxpreexascale2017,etancelinmultigpu2016,etancelinadvanced2016,legouezoptimized2016,etancelinmacroscopic2013}
 \addtocategory{mythese}{etancelincouplage2014}
 \def\tobepublished{À paraître}
 \def\accepted{Accepté}
